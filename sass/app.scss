@@ -1,4 +1,11 @@
-* {
-    border: 10px solid red !important;
-    background-color: blue;
+@import "./a_variables.scss";
+@import "./b_breakpoints.scss";
+// nested target parent
+.app-loaded {
+    //banner
+    .media-element {
+        @media (max-width: $breakpoint-tablet) {
+            border: 50px solid red;
+        }
+    }
 }
