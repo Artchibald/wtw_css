@@ -1,6 +1,7 @@
 $breakpoint-tablet: 768px;
 $breakpoint-desktop: 1200px;
 //color
+$mainPurple: #7f35b2;
 $grey: #d8d2db;
 $greyTags: #f1f0f2;
 $searchBoxColor: #48086f;
@@ -8,6 +9,28 @@ $greyBorder: #99909f;
 $hotPink: #d12488;
 $hotPinkDarker: #bc20a6;
 $dark: #212529;
+// links
+@mixin linkStyle {
+    text-transform: capitalize;
+    font-family: "graphikBold", Arial, sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.025rem;
+    &:hover {
+        text-decoration: underline;
+        text-underline-offset: 2px;
+        cursor: pointer;
+    }
+}
+
+@mixin linkHoverStyle {
+    &:hover {
+        text-decoration: underline;
+        text-underline-offset: 2px;
+        cursor: pointer;
+    }
+}
+
+// button
 @mixin buttonStyle {
     font-family: "graphikBold", Arial, sans-serif;
     height: 36px;

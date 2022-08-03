@@ -36,6 +36,8 @@
   .app-loaded .search-box-compact__button-border,
   .app-loaded .search-box-compact__button-background {
     border-radius: 0px; }
+  .app-loaded .search-box-compact__fieldset::before {
+    border-radius: 0; }
   .app-loaded .icon-search-thin.theme-color-1 {
     color: white; }
   .app-loaded .search-box-compact__button {
@@ -44,19 +46,23 @@
     font-size: 1.5rem; }
   .app-loaded .search-box-compact__menu {
     box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2); }
-  .app-loaded .search-box-compact__menu-item {
+  .app-loaded .search-box-compact__menu-item button {
     text-transform: capitalize;
     font-family: "graphikBold", Arial, sans-serif;
     font-size: 18px;
-    letter-spacing: 1px; }
-    .app-loaded .search-box-compact__menu-item:hover {
-      text-decoration: underline; }
+    letter-spacing: 0.025rem; }
+    .app-loaded .search-box-compact__menu-item button:hover {
+      text-decoration: underline;
+      text-underline-offset: 2px;
+      cursor: pointer; }
   .app-loaded .search-filters__header {
     color: black;
     text-transform: capitalize; }
   .app-loaded .search-filters__set-filter:hover,
   .app-loaded .search-jobs__toggle-filters:hover {
-    text-decoration: underline; }
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    cursor: pointer; }
   .app-loaded .search-jobs__misc * {
     font-family: "graphikBold", Arial, sans-serif; }
   .app-loaded .search-breadcrumbs__breadcrumb {
@@ -66,13 +72,21 @@
     font-size: 16px; }
   .app-loaded .search-jobs__counter.text-color-secondary {
     color: black; }
-  .app-loaded .job-tile__subheader *,
   .app-loaded .job-list-item__description {
     color: black; }
   .app-loaded .job-tile__secondary-locations * {
     font-family: "graphikBold", Arial, sans-serif; }
   .app-loaded .job-tile.job-list-item:hover {
-    background-color: #d8d2db; }
+    background-color: #7f35b2; }
+    .app-loaded .job-tile.job-list-item:hover h2.job-tile__title {
+      color: white; }
+    .app-loaded .job-tile.job-list-item:hover .job-tile__subheader *,
+    .app-loaded .job-tile.job-list-item:hover button,
+    .app-loaded .job-tile.job-list-item:hover .job-list-item__show-icon,
+    .app-loaded .job-tile.job-list-item:hover .job-list-item__description {
+      color: white; }
+  .app-loaded .job-tile.job-list-item .job-tile__subheader * {
+    color: black; }
   .app-loaded .talent-community-tile__title {
     color: #212529; }
   .app-loaded .talent-community-tile__actions a.button {

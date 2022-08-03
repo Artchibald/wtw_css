@@ -43,6 +43,10 @@
     .search-box-compact__button-background {
         border-radius: 0px;
     }
+    //searchbox mobile
+    .search-box-compact__fieldset::before {
+        border-radius: 0;
+    }
     //search box icon color
     .icon-search-thin.theme-color-1 {
         color: white;
@@ -58,14 +62,8 @@
     .search-box-compact__menu {
         box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
     }
-    .search-box-compact__menu-item {
-        text-transform: capitalize;
-        font-family: "graphikBold", Arial, sans-serif;
-        font-size: 18px;
-        letter-spacing: 1px;
-        &:hover {
-            text-decoration: underline;
-        }
+    .search-box-compact__menu-item button {
+        @include linkStyle;
     }
     // filters menu, different css page?
     .search-filters__header {
@@ -74,9 +72,7 @@
     }
     .search-filters__set-filter,
     .search-jobs__toggle-filters {
-        &:hover {
-            text-decoration: underline;
-        }
+        @include linkHoverStyle;
     }
     // result amends start here
     //tags
@@ -92,8 +88,6 @@
     .search-jobs__counter.text-color-secondary {
         color: black;
     }
-    // job results
-    .job-tile__subheader *,
     .job-list-item__description {
         color: black;
     }
@@ -103,7 +97,21 @@
     // results hover bg
     .job-tile.job-list-item {
         &:hover {
-            background-color: $grey;
+            background-color: $mainPurple;
+            h2.job-tile__title {
+                color: white;
+            }
+            // job results
+            .job-tile__subheader *,
+            button,
+            .job-list-item__show-icon,
+            .job-list-item__description {
+                color: white;
+            }
+        }
+        // job results
+        .job-tile__subheader * {
+            color: black;
         }
     }
     // result cta title
