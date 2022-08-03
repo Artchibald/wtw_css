@@ -51,6 +51,12 @@
     letter-spacing: 1px; }
     .app-loaded .search-box-compact__menu-item:first-of-type:hover {
       text-decoration: underline; }
+  .app-loaded .search-filters__header {
+    color: black;
+    text-transform: capitalize; }
+  .app-loaded .search-filters__set-filter:hover,
+  .app-loaded .search-jobs__toggle-filters:hover {
+    text-decoration: underline; }
   .app-loaded .search-jobs__misc * {
     font-family: "graphikBold", Arial, sans-serif; }
   .app-loaded .search-breadcrumbs__breadcrumb {
