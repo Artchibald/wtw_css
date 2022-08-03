@@ -42,6 +42,8 @@
     background-color: #48086f; }
   .app-loaded .search-box-compact__button {
     font-size: 1.5rem; }
+  .app-loaded .search-box-compact__menu {
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2); }
   .app-loaded .search-box-compact__menu-item {
     text-transform: capitalize;
     font-family: "graphikBold", Arial, sans-serif;
