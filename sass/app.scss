@@ -7,9 +7,9 @@
         font-family: "graphikReg", Arial, sans-serif;
     }
     //header elements
-    .app__top {
-        border-bottom: 1px solid $grey;
-    }
+    // .app__top {
+    //     border-bottom: 1px solid $grey;
+    // }
     // remove horiz scrolbar
     overflow-x: hidden;
     //empty space above banner removal
@@ -55,7 +55,7 @@
         font-size: 1.5rem;
     }
     // location dropdown
-    .search-box-compact__menu-item:first-of-type {
+    .search-box-compact__menu-item {
         text-transform: capitalize;
         font-family: "graphikBold", Arial, sans-serif;
         font-size: 18px;
@@ -64,7 +64,7 @@
             text-decoration: underline;
         }
     }
-    // filters menu
+    // filters menu, different css page?
     .search-filters__header {
         color: black;
         text-transform: capitalize;
@@ -75,7 +75,7 @@
             text-decoration: underline;
         }
     }
-    // result amends start here, different css page?
+    // result amends start here
     //tags
     .search-jobs__misc * {
         font-family: "graphikBold", Arial, sans-serif;
@@ -110,5 +110,41 @@
     // result btn cta
     .talent-community-tile__actions a.button {
         @include buttonStyle;
+    }
+    // modal job spec
+    .job-details__subtitle,
+    .job-details__section *,
+    .job-meta__list * {
+        color: black;
+    }
+    .apply-now-button {
+        @include buttonStyle;
+    }
+    .job-details__see-more-button button {
+        @include buttonStyle;
+    }
+}
+
+//modal backdrop color
+.body--dialog-opened .app-dialog {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+// modal close btn
+.app-dialog__bar {
+    button.app-dialog__close,
+    button.favourite-star,
+    button.share-widget__action {
+        background-color: $hotPink;
+        border-radius: 100%;
+        .copy-link__icon {
+            color: white;
+        }
+        &::before {
+            color: white;
+        }
+        .app-dialog__close-label {
+            display: none;
+        }
     }
 }
