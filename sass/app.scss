@@ -134,6 +134,56 @@
     .job-details__see-more-button button {
         @include buttonStyle;
     }
+    // login
+    .button {
+        @include buttonStyle();
+    }
+    // form
+    .apply-flow__content {
+        background-color: $greyBg;
+        padding: 1em;
+        .apply-flow-profile-import__awli-content {
+            background-color: white;
+            border: 1px solid $grey;
+        }
+        .apply-flow-block__instructions {
+            color: black;
+        }
+        .apply-flow-profile-import-awli__button {
+            @include buttonStyle();
+        }
+        .apply-flow-block__title {
+            color: black;
+        }
+        .input-row__label,
+        .oj-select-chosen,
+        .input-row__control,
+        .apply-flow-input-checkbox__label,
+        .text-truncate__content {
+            color: black;
+        }
+        .input-row__control,
+        .oj-select-choice,
+        .apply-flow-input-checkbox__button {
+            background-color: white;
+            border: 1px solid $grey;
+        }
+        .candidate-links__add-link {
+            @include linkStyle;
+        }
+        .text-truncate__toggle {
+            @include linkStyle;
+        }
+        .button__arrow {
+            display: none;
+        }
+    }
+    h2.apply-flow-block__title,
+    .apply-flow-block__title {
+        text-transform: capitalize;
+        font-family: "graphikBold", Arial, sans-serif;
+        color: black;
+    }
 }
 
 //modal backdrop color

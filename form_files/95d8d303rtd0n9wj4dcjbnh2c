@@ -1,0 +1,1 @@
+LI.RUM.monkeyTimeList({"fs.embed":"totalFizzyTime","dust.render":"totalDustRenderTime","dust.register":"totalDustTemplateParseTime"});
