@@ -1,0 +1,1 @@
+(function(a,c){a&&a.errors&&(a.errors.bootstrap=function(){if(c.fs&&a.errors)c.fs.on("error",function(b){var d;if(c.JSON){d={id:b.id};b.xhr&&(d.xhr=b.xhr);try{b.unique=c.JSON.stringify(d)}catch(e){}}a.errors.push(b)})},a.errors.bootstrap())})(window.track,window);

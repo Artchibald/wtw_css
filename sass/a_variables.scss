@@ -55,6 +55,38 @@ $dark: #212529;
         height: 15px;
         fill: white;
         margin-left: 10px;
+        position: relative;
+        display: inherit;
+    }
+    &:hover {
+        background-color: $hotPinkDarker;
+    }
+}
+
+@mixin buttonReversedStyle {
+    font-family: "graphikBold", Arial, sans-serif;
+    height: 36px;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: white;
+    letter-spacing: 1px;
+    background-color: $hotPink;
+    padding: 10px 16px 10px 24px;
+    border-radius: 34px;
+    border: 0px;
+    &::before {
+        border: 0;
+        content: "";
+        background-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 280.085 278.412' style='enable-background:new 0 0 280.085 278.412;' xml:space='preserve'%3E%3Cg%3E%3Cpath style='fill:%23FFF;' d='M69.035,120.73c1.789,0,3.577,0,5.366,0c66.463-0.004,132.927,0.037,199.39-0.107 c4.701-0.01,6.522,1.113,6.272,6.071c-0.41,8.14-0.323,16.315-0.164,24.469c0.07,3.58-0.964,5.036-4.78,5.025 c-35.475-0.101-70.951-0.065-106.426-0.043c-32.312,0.02-64.623,0.071-96.935,0.124c-0.803,0.001-1.606,0.18-2.676,0.308 c0.478,2.733,2.619,3.946,4.163,5.501c28.974,29.169,57.986,58.302,86.99,87.442c4.521,4.542,4.456,4.54-0.073,8.94 c-5.614,5.453-11.263,10.885-16.59,16.612c-3.011,3.236-4.961,3.025-8.03-0.076c-26.704-26.986-53.545-53.836-80.387-80.685 c-17.188-17.193-34.358-34.407-51.749-51.394c-3.413-3.334-3.034-5.213,0.128-8.362c44.129-43.943,88.175-87.969,132.115-132.1 c3.309-3.323,5.301-3.264,8.377,0.116c5.375,5.906,11.02,11.59,16.858,17.041c3.098,2.892,2.842,4.714-0.063,7.592 c-22.699,22.485-45.228,45.142-67.862,67.693c-8.207,8.177-16.556,16.212-24.84,24.312 C68.424,119.717,68.729,120.224,69.035,120.73z'/%3E%3C/g%3E%3C/svg%3E%0A");
+        // background-repeat: no-repeat;
+        background-position: center top;
+        width: 15px;
+        height: 15px;
+        fill: white;
+        margin-right: 10px;
+        position: relative;
+        display: inherit;
+        left: -5px;
     }
     &:hover {
         background-color: $hotPinkDarker;

@@ -135,8 +135,45 @@
         @include buttonStyle;
     }
     // login
-    .button {
+    .buttons-bar__inner {
+        .button:first-child {
+            @include buttonReversedStyle();
+            .button__arrow {
+                display: none;
+            }
+        }
+        .button:last-child {
+            @include buttonStyle();
+            .button__arrow {
+                display: none;
+            }
+        }
+    }
+    // verify
+    h1.heading,
+    .apply-flow-dialog__text,
+    .input-row__linebreak {
+        color: black;
+    }
+    .input-row__linebreak {
+        font-family: "graphikBold", Arial, sans-serif;
+    }
+    .apply-flow-dialog__button {
         @include buttonStyle();
+    }
+    .heading,
+    .apply-flow-dialog__header,
+    .apply-flow-dialog__text {
+        color: black;
+    }
+    .input-row__label {
+        .input-row__linebreak {
+            font-family: "graphikBold", Arial, sans-serif;
+            color: black;
+        }
+    }
+    .input-row__control {
+        color: black;
     }
     // form
     .apply-flow__content {
@@ -149,11 +186,38 @@
         .apply-flow-block__instructions {
             color: black;
         }
+        .input-row__control-container * {
+            color: black;
+        }
+        .input-row__control {
+            color: black;
+        }
+        .apply-flow-profile-import-awli__button {
+            width: 246px;
+        }
+        .apply-btn {
+            @include buttonStyle();
+        }
         .apply-flow-profile-import-awli__button {
             @include buttonStyle();
+            padding: 4px 16px 10px 24px;
+            &:hover {
+                border: 0;
+                outline: 0;
+                background-color: $hotPinkDarker;
+            }
+        }
+        .apply-flow-profile-import-awli__file-upload:hover~.apply-flow-profile-import-awli__button {
+            border: 0;
+            outline: 0;
+            background-color: $hotPinkDarker;
         }
         .apply-flow-block__title {
             color: black;
+            font-family: "graphikBold", Arial, sans-serif;
+        }
+        .input-row__label * {
+            font-family: "graphikBold", Arial, sans-serif;
         }
         .input-row__label,
         .oj-select-chosen,
