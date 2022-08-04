@@ -1,5 +1,10 @@
 # legality of Base64 web rights?
 
+# What do we use for caps? Arial?
+
+# If anything looks really wrong please let me know, I will write the amend down
+
+
 css file provide
 
 portal updates
