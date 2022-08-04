@@ -91,15 +91,17 @@
     color: #212529; }
   .app-loaded .talent-community-tile__actions a.button {
     font-family: "graphikBold", Arial, sans-serif;
-    height: 36px;
-    font-size: 18px;
     text-transform: capitalize;
     color: white;
-    letter-spacing: 1px;
+    border-radius: 50px;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    line-height: 1.75rem;
+    padding: 8px 24px;
     background-color: #d12488;
-    padding: 10px 16px 10px 24px;
-    border-radius: 34px;
-    border: 0px; }
+    border: 1px solid #d12488;
+    height: 48px;
+    cursor: pointer; }
     .app-loaded .talent-community-tile__actions a.button::before {
       border: 0; }
     .app-loaded .talent-community-tile__actions a.button::after {
@@ -113,22 +115,25 @@
       position: relative;
       display: inline-flex; }
     .app-loaded .talent-community-tile__actions a.button:hover {
-      background-color: #bc20a6; }
+      background-color: #bc20a6;
+      border: 1px solid #bc20a6; }
   .app-loaded .job-details__subtitle,
   .app-loaded .job-details__section *,
   .app-loaded .job-meta__list * {
     color: black; }
   .app-loaded .apply-now-button {
     font-family: "graphikBold", Arial, sans-serif;
-    height: 36px;
-    font-size: 18px;
     text-transform: capitalize;
     color: white;
-    letter-spacing: 1px;
+    border-radius: 50px;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    line-height: 1.75rem;
+    padding: 8px 24px;
     background-color: #d12488;
-    padding: 10px 16px 10px 24px;
-    border-radius: 34px;
-    border: 0px; }
+    border: 1px solid #d12488;
+    height: 48px;
+    cursor: pointer; }
     .app-loaded .apply-now-button::before {
       border: 0; }
     .app-loaded .apply-now-button::after {
@@ -142,18 +147,21 @@
       position: relative;
       display: inline-flex; }
     .app-loaded .apply-now-button:hover {
-      background-color: #bc20a6; }
+      background-color: #bc20a6;
+      border: 1px solid #bc20a6; }
   .app-loaded .job-details__see-more-button button {
     font-family: "graphikBold", Arial, sans-serif;
-    height: 36px;
-    font-size: 18px;
     text-transform: capitalize;
     color: white;
-    letter-spacing: 1px;
+    border-radius: 50px;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    line-height: 1.75rem;
+    padding: 8px 24px;
     background-color: #d12488;
-    padding: 10px 16px 10px 24px;
-    border-radius: 34px;
-    border: 0px; }
+    border: 1px solid #d12488;
+    height: 48px;
+    cursor: pointer; }
     .app-loaded .job-details__see-more-button button::before {
       border: 0; }
     .app-loaded .job-details__see-more-button button::after {
@@ -167,18 +175,21 @@
       position: relative;
       display: inline-flex; }
     .app-loaded .job-details__see-more-button button:hover {
-      background-color: #bc20a6; }
+      background-color: #bc20a6;
+      border: 1px solid #bc20a6; }
   .app-loaded .buttons-bar__inner .button:first-child {
     font-family: "graphikBold", Arial, sans-serif;
-    height: 36px;
-    font-size: 18px;
     text-transform: capitalize;
     color: white;
-    letter-spacing: 1px;
+    border-radius: 50px;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    line-height: 1.75rem;
+    padding: 8px 24px;
     background-color: #d12488;
-    padding: 10px 16px 10px 24px;
-    border-radius: 34px;
-    border: 0px; }
+    border: 1px solid #d12488;
+    height: 48px;
+    cursor: pointer; }
     .app-loaded .buttons-bar__inner .button:first-child::before {
       border: 0;
       content: "";
@@ -197,15 +208,17 @@
       display: none; }
   .app-loaded .buttons-bar__inner .button:last-child {
     font-family: "graphikBold", Arial, sans-serif;
-    height: 36px;
-    font-size: 18px;
     text-transform: capitalize;
     color: white;
-    letter-spacing: 1px;
+    border-radius: 50px;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    line-height: 1.75rem;
+    padding: 8px 24px;
     background-color: #d12488;
-    padding: 10px 16px 10px 24px;
-    border-radius: 34px;
-    border: 0px; }
+    border: 1px solid #d12488;
+    height: 48px;
+    cursor: pointer; }
     .app-loaded .buttons-bar__inner .button:last-child::before {
       border: 0; }
     .app-loaded .buttons-bar__inner .button:last-child::after {
@@ -219,7 +232,8 @@
       position: relative;
       display: inline-flex; }
     .app-loaded .buttons-bar__inner .button:last-child:hover {
-      background-color: #bc20a6; }
+      background-color: #bc20a6;
+      border: 1px solid #bc20a6; }
     .app-loaded .buttons-bar__inner .button:last-child .button__arrow {
       display: none; }
   .app-loaded h1.heading,
@@ -230,15 +244,17 @@
     font-family: "graphikBold", Arial, sans-serif; }
   .app-loaded .apply-flow-dialog__button {
     font-family: "graphikBold", Arial, sans-serif;
-    height: 36px;
-    font-size: 18px;
     text-transform: capitalize;
     color: white;
-    letter-spacing: 1px;
+    border-radius: 50px;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    line-height: 1.75rem;
+    padding: 8px 24px;
     background-color: #d12488;
-    padding: 10px 16px 10px 24px;
-    border-radius: 34px;
-    border: 0px; }
+    border: 1px solid #d12488;
+    height: 48px;
+    cursor: pointer; }
     .app-loaded .apply-flow-dialog__button::before {
       border: 0; }
     .app-loaded .apply-flow-dialog__button::after {
@@ -252,7 +268,8 @@
       position: relative;
       display: inline-flex; }
     .app-loaded .apply-flow-dialog__button:hover {
-      background-color: #bc20a6; }
+      background-color: #bc20a6;
+      border: 1px solid #bc20a6; }
   .app-loaded .heading,
   .app-loaded .apply-flow-dialog__header,
   .app-loaded .apply-flow-dialog__text {
@@ -262,20 +279,24 @@
     color: black; }
   .app-loaded .input-row__control {
     color: black; }
+  .app-loaded .apply-flow-dialog__content .buttons-bar__inner .button:first-child::after {
+    background-image: none; }
   .app-loaded .inline-spinner__label {
     font-family: "graphikBold", Arial, sans-serif; }
   .app-loaded .button {
     font-family: "graphikBold", Arial, sans-serif;
-    height: 36px;
-    font-size: 18px;
     text-transform: capitalize;
     color: white;
-    letter-spacing: 1px;
+    border-radius: 50px;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    line-height: 1.75rem;
+    padding: 8px 24px;
     background-color: #d12488;
-    padding: 10px 16px 10px 24px;
-    border-radius: 34px;
-    border: 0px;
-    max-width: 240px;
+    border: 1px solid #d12488;
+    height: 48px;
+    cursor: pointer;
+    max-width: 264px;
     height: 50px; }
     .app-loaded .button::before {
       border: 0; }
@@ -290,7 +311,8 @@
       position: relative;
       display: inline-flex; }
     .app-loaded .button:hover {
-      background-color: #bc20a6; }
+      background-color: #bc20a6;
+      border: 1px solid #bc20a6; }
     .app-loaded .button ::before {
       border: 0; }
   .app-loaded .apply-flow__content {
@@ -309,15 +331,17 @@
       width: 246px; }
     .app-loaded .apply-flow__content .apply-btn {
       font-family: "graphikBold", Arial, sans-serif;
-      height: 36px;
-      font-size: 18px;
       text-transform: capitalize;
       color: white;
-      letter-spacing: 1px;
+      border-radius: 50px;
+      font-size: 18px;
+      letter-spacing: 0.01em;
+      line-height: 1.75rem;
+      padding: 8px 24px;
       background-color: #d12488;
-      padding: 10px 16px 10px 24px;
-      border-radius: 34px;
-      border: 0px; }
+      border: 1px solid #d12488;
+      height: 48px;
+      cursor: pointer; }
       .app-loaded .apply-flow__content .apply-btn::before {
         border: 0; }
       .app-loaded .apply-flow__content .apply-btn::after {
@@ -331,18 +355,21 @@
         position: relative;
         display: inline-flex; }
       .app-loaded .apply-flow__content .apply-btn:hover {
-        background-color: #bc20a6; }
+        background-color: #bc20a6;
+        border: 1px solid #bc20a6; }
     .app-loaded .apply-flow__content .apply-flow-profile-import-awli__button {
       font-family: "graphikBold", Arial, sans-serif;
-      height: 36px;
-      font-size: 18px;
       text-transform: capitalize;
       color: white;
-      letter-spacing: 1px;
+      border-radius: 50px;
+      font-size: 18px;
+      letter-spacing: 0.01em;
+      line-height: 1.75rem;
+      padding: 8px 24px;
       background-color: #d12488;
-      padding: 10px 16px 10px 24px;
-      border-radius: 34px;
-      border: 0px;
+      border: 1px solid #d12488;
+      height: 48px;
+      cursor: pointer;
       padding: 4px 16px 10px 24px; }
       .app-loaded .apply-flow__content .apply-flow-profile-import-awli__button::before {
         border: 0; }
@@ -357,7 +384,8 @@
         position: relative;
         display: inline-flex; }
       .app-loaded .apply-flow__content .apply-flow-profile-import-awli__button:hover {
-        background-color: #bc20a6; }
+        background-color: #bc20a6;
+        border: 1px solid #bc20a6; }
       .app-loaded .apply-flow__content .apply-flow-profile-import-awli__button:hover {
         border: 0;
         outline: 0;
@@ -373,15 +401,17 @@
       font-family: "graphikBold", Arial, sans-serif; }
     .app-loaded .apply-flow__content .file-form-element__label {
       font-family: "graphikBold", Arial, sans-serif;
-      height: 36px;
-      font-size: 18px;
       text-transform: capitalize;
       color: white;
-      letter-spacing: 1px;
+      border-radius: 50px;
+      font-size: 18px;
+      letter-spacing: 0.01em;
+      line-height: 1.75rem;
+      padding: 8px 24px;
       background-color: #d12488;
-      padding: 10px 16px 10px 24px;
-      border-radius: 34px;
-      border: 0px;
+      border: 1px solid #d12488;
+      height: 48px;
+      cursor: pointer;
       height: 22px;
       outline: 0; }
       .app-loaded .apply-flow__content .file-form-element__label::before {
@@ -397,7 +427,8 @@
         position: relative;
         display: inline-flex; }
       .app-loaded .apply-flow__content .file-form-element__label:hover {
-        background-color: #bc20a6; }
+        background-color: #bc20a6;
+        border: 1px solid #bc20a6; }
     .app-loaded .apply-flow__content .attachment-upload-button-mobile::before {
       border: 0;
       outline: 0; }

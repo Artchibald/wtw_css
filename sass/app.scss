@@ -175,13 +175,23 @@
     .input-row__control {
         color: black;
     }
+    // welcome back, remove forward arrow on btn exception
+    .apply-flow-dialog__content {
+        .buttons-bar__inner {
+            .button:first-child {
+                &::after {
+                    background-image: none;
+                }
+            }
+        }
+    }
     // form
     .inline-spinner__label {
         font-family: "graphikBold", Arial, sans-serif;
     }
     .button {
         @include buttonStyle();
-        max-width: 240px;
+        max-width: 264px;
         height: 50px;
          ::before {
             border: 0;
