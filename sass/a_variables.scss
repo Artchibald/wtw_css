@@ -56,7 +56,7 @@ $dark: #212529;
         fill: white;
         margin-left: 10px;
         position: relative;
-        display: inherit;
+        display: inline-flex;
     }
     &:hover {
         background-color: $hotPinkDarker;

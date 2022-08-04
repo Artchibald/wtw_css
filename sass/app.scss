@@ -176,6 +176,17 @@
         color: black;
     }
     // form
+    .inline-spinner__label {
+        font-family: "graphikBold", Arial, sans-serif;
+    }
+    .button {
+        @include buttonStyle();
+        max-width: 240px;
+        height: 50px;
+         ::before {
+            border: 0;
+        }
+    }
     .apply-flow__content {
         background-color: $greyBg;
         padding: 1em;
@@ -218,6 +229,19 @@
         }
         .input-row__label * {
             font-family: "graphikBold", Arial, sans-serif;
+        }
+        // cv cover letter btns
+        .file-form-element__label {
+            @include buttonStyle();
+            height: 22px;
+            outline: 0;
+        }
+        .attachment-upload-button-mobile::before {
+            border: 0;
+            outline: 0;
+        }
+        .attachment-upload-button-mobile__label {
+            width: 234px;
         }
         .input-row__label,
         .oj-select-chosen,
