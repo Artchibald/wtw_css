@@ -50,7 +50,7 @@
     text-transform: capitalize;
     font-family: "graphikBold", Arial, sans-serif;
     font-size: 18px;
-    letter-spacing: 0.025rem; }
+    letter-spacing: 0.01rem; }
     .app-loaded .search-box-compact__menu-item button:hover {
       text-decoration: underline;
       text-underline-offset: 2px;
@@ -465,7 +465,7 @@
       text-transform: capitalize;
       font-family: "graphikBold", Arial, sans-serif;
       font-size: 18px;
-      letter-spacing: 0.025rem; }
+      letter-spacing: 0.01rem; }
       .app-loaded .apply-flow__content .candidate-links__add-link:hover {
         text-decoration: underline;
         text-underline-offset: 2px;
@@ -474,7 +474,7 @@
       text-transform: capitalize;
       font-family: "graphikBold", Arial, sans-serif;
       font-size: 18px;
-      letter-spacing: 0.025rem; }
+      letter-spacing: 0.01rem; }
       .app-loaded .apply-flow__content .text-truncate__toggle:hover {
         text-decoration: underline;
         text-underline-offset: 2px;
@@ -490,20 +490,18 @@
 .body--dialog-opened .app-dialog {
   background-color: rgba(0, 0, 0, 0.8); }
 
-.app-dialog__bar button.app-dialog__close,
-.app-dialog__bar button.favourite-star,
-.app-dialog__bar button.share-widget__action {
+.app-dialog__bar button.app-dialog__close {
   background-color: #d12488;
   border-radius: 100%; }
-  .app-dialog__bar button.app-dialog__close .copy-link__icon,
-  .app-dialog__bar button.favourite-star .copy-link__icon,
-  .app-dialog__bar button.share-widget__action .copy-link__icon {
+  .app-dialog__bar button.app-dialog__close .copy-link__icon {
     color: white; }
-  .app-dialog__bar button.app-dialog__close::before,
-  .app-dialog__bar button.favourite-star::before,
-  .app-dialog__bar button.share-widget__action::before {
+  .app-dialog__bar button.app-dialog__close::before {
     color: white; }
-  .app-dialog__bar button.app-dialog__close .app-dialog__close-label,
-  .app-dialog__bar button.favourite-star .app-dialog__close-label,
-  .app-dialog__bar button.share-widget__action .app-dialog__close-label {
+  .app-dialog__bar button.app-dialog__close .app-dialog__close-label {
     display: none; }
+
+@media (min-width: 768px) {
+  .app-dialog__bar button.app-dialog__close {
+    position: relative;
+    top: -66px;
+    left: 20px; } }

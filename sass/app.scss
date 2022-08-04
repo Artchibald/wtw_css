@@ -306,9 +306,9 @@
 
 // modal close btn
 .app-dialog__bar {
-    button.app-dialog__close,
-    button.favourite-star,
-    button.share-widget__action {
+    // button.favourite-star,
+    // button.share-widget__action,
+    button.app-dialog__close {
         background-color: $hotPink;
         border-radius: 100%;
         .copy-link__icon {
@@ -319,6 +319,13 @@
         }
         .app-dialog__close-label {
             display: none;
+        }
+    }
+    button.app-dialog__close {
+        @media (min-width: $breakpoint-tablet) {
+            position: relative;
+            top: -66px;
+            left: 20px;
         }
     }
 }
