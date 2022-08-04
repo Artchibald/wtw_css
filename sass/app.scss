@@ -197,6 +197,26 @@
         }
     }
     // form
+    // bring inner form content up
+    .apply-flow-page {
+        top: -40px;
+        position: relative;
+    }
+    //top title of form
+    .apply-flow-profile-import {
+        .apply-flow-block__header:first-child {
+            .apply-flow-block__title {
+                position: relative;
+                top: -15px;
+                left: 0px;
+                font-family: "graphikBold", Arial, sans-serif;
+                font-size: 32px;
+                @media (min-width: $breakpoint-tablet) {
+                    left: -15px;
+                }
+            }
+        }
+    }
     .inline-spinner__label {
         font-family: "graphikBold", Arial, sans-serif;
     }
@@ -297,6 +317,23 @@
         font-family: "graphikBold", Arial, sans-serif;
         color: black;
     }
+    //menu
+    span.oj-select-chosen,
+    .app-menu__item {
+        text-transform: capitalize;
+    }
+    .app-menu__subitem {
+        text-transform: uppercase;
+        color: black;
+    }
+    .app-menu__wrapper {
+        box-shadow: none;
+    }
+}
+
+// slide out main menu bg
+.body--menu-opened .app-menu {
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 //modal backdrop color
@@ -324,7 +361,7 @@
     button.app-dialog__close {
         @media (min-width: $breakpoint-tablet) {
             position: relative;
-            top: -66px;
+            top: -65px;
             left: 20px;
         }
     }

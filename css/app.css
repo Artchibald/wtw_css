@@ -290,6 +290,18 @@
     background-image: none; }
   .app-loaded .talent-community-flow__container .buttons-bar__inner .button:first-child::after {
     background-image: none; }
+  .app-loaded .apply-flow-page {
+    top: -40px;
+    position: relative; }
+  .app-loaded .apply-flow-profile-import .apply-flow-block__header:first-child .apply-flow-block__title {
+    position: relative;
+    top: -15px;
+    left: 0px;
+    font-family: "graphikBold", Arial, sans-serif;
+    font-size: 32px; }
+    @media (min-width: 768px) {
+      .app-loaded .apply-flow-profile-import .apply-flow-block__header:first-child .apply-flow-block__title {
+        left: -15px; } }
   .app-loaded .inline-spinner__label {
     font-family: "graphikBold", Arial, sans-serif; }
   .app-loaded .button {
@@ -486,6 +498,17 @@
     text-transform: capitalize;
     font-family: "graphikBold", Arial, sans-serif;
     color: black; }
+  .app-loaded span.oj-select-chosen,
+  .app-loaded .app-menu__item {
+    text-transform: capitalize; }
+  .app-loaded .app-menu__subitem {
+    text-transform: uppercase;
+    color: black; }
+  .app-loaded .app-menu__wrapper {
+    box-shadow: none; }
+
+.body--menu-opened .app-menu {
+  background-color: rgba(0, 0, 0, 0.8); }
 
 .body--dialog-opened .app-dialog {
   background-color: rgba(0, 0, 0, 0.8); }
@@ -503,5 +526,5 @@
 @media (min-width: 768px) {
   .app-dialog__bar button.app-dialog__close {
     position: relative;
-    top: -66px;
+    top: -65px;
     left: 20px; } }
