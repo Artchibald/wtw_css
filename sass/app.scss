@@ -78,6 +78,7 @@
     //tags
     .search-jobs__misc * {
         font-family: "graphikBold", Arial, sans-serif;
+        text-transform: capitalize;
     }
     .search-breadcrumbs__breadcrumb {
         margin: 10px 10px 0 0;
@@ -185,6 +186,16 @@
             }
         }
     }
+    // thank you, remove forward arrow on btn exception
+    .talent-community-flow__container {
+        .buttons-bar__inner {
+            .button:first-child {
+                &::after {
+                    background-image: none;
+                }
+            }
+        }
+    }
     // form
     .inline-spinner__label {
         font-family: "graphikBold", Arial, sans-serif;
@@ -195,6 +206,9 @@
         height: 50px;
          ::before {
             border: 0;
+        }
+        span {
+            font-family: "graphikBold", Arial, sans-serif;
         }
     }
     .apply-flow__content {
@@ -221,7 +235,6 @@
         }
         .apply-flow-profile-import-awli__button {
             @include buttonStyle();
-            padding: 4px 16px 10px 24px;
             &:hover {
                 border: 0;
                 outline: 0;
@@ -243,8 +256,10 @@
         // cv cover letter btns
         .file-form-element__label {
             @include buttonStyle();
-            height: 22px;
             outline: 0;
+            height: 36px;
+            min-width: 210px;
+            padding: 14px 24px 1px 24px;
         }
         .attachment-upload-button-mobile::before {
             border: 0;
