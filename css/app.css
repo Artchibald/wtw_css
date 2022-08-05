@@ -458,7 +458,9 @@
     padding: 1em; }
     .app-loaded .apply-flow__content .apply-flow-profile-import__awli-content {
       background-color: white;
-      border: 1px solid #d8d2db; }
+      border: 1px solid #d8d2db;
+      padding-left: 10px;
+      padding-right: 10px; }
     .app-loaded .apply-flow__content .apply-flow-block__instructions {
       color: black; }
     .app-loaded .apply-flow__content .input-row__control-container * {
