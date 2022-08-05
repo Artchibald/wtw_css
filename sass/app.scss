@@ -140,12 +140,14 @@
     .buttons-bar__inner {
         .button:first-child {
             @include buttonReversedStyle();
+            height: 48px;
             .button__arrow {
                 display: none;
             }
         }
         .button:last-child {
             @include buttonStyle();
+            height: 48px;
             .button__arrow {
                 display: none;
             }
@@ -162,6 +164,16 @@
     }
     .apply-flow-dialog__button {
         @include buttonStyle();
+        .button__arrow {
+            display: none;
+        }
+    }
+    // difficult btns height,issue on some
+    .apply-flow-dialog__footer {
+        .apply-flow-dialog__button {
+            height: 42px;
+            font-family: "graphikBold", Arial, sans-serif;
+        }
     }
     .heading,
     .apply-flow-dialog__header,

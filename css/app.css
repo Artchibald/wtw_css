@@ -194,7 +194,8 @@
     background-color: #d12488;
     border: 1px solid #d12488;
     height: 48px;
-    cursor: pointer; }
+    cursor: pointer;
+    height: 48px; }
     .app-loaded .buttons-bar__inner .button:first-child::before {
       border: 0;
       content: "";
@@ -224,7 +225,8 @@
     background-color: #d12488;
     border: 1px solid #d12488;
     height: 32px;
-    cursor: pointer; }
+    cursor: pointer;
+    height: 48px; }
     .app-loaded .buttons-bar__inner .button:last-child::before {
       border: 0; }
     .app-loaded .buttons-bar__inner .button:last-child::after {
@@ -278,6 +280,11 @@
     .app-loaded .apply-flow-dialog__button:hover {
       background-color: #bc20a6;
       border: 1px solid #bc20a6; }
+    .app-loaded .apply-flow-dialog__button .button__arrow {
+      display: none; }
+  .app-loaded .apply-flow-dialog__footer .apply-flow-dialog__button {
+    height: 42px;
+    font-family: "graphikBold", Arial, sans-serif; }
   .app-loaded .heading,
   .app-loaded .apply-flow-dialog__header,
   .app-loaded .apply-flow-dialog__text {
