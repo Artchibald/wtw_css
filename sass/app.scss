@@ -71,7 +71,8 @@
         text-transform: capitalize;
     }
     .search-filters__set-filter,
-    .search-jobs__toggle-filters {
+    .search-jobs__toggle-filters,
+    .search-jobs__clear-filter {
         @include linkHoverStyle;
     }
     // result amends start here

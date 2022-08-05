@@ -59,7 +59,8 @@
     color: black;
     text-transform: capitalize; }
   .app-loaded .search-filters__set-filter:hover,
-  .app-loaded .search-jobs__toggle-filters:hover {
+  .app-loaded .search-jobs__toggle-filters:hover,
+  .app-loaded .search-jobs__clear-filter:hover {
     text-decoration: underline;
     text-underline-offset: 2px;
     cursor: pointer; }

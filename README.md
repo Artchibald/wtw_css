@@ -4,6 +4,7 @@
 
 # If anything looks really wrong please let me know, I will write the amend down
 
+# Home mouse icon doesnt do anyhting, take it out?
 
 css file provide
 
