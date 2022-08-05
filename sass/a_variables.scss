@@ -83,6 +83,48 @@ $notifBorder: #c2a8f0;
     }
 }
 
+// button
+@mixin formButtonStyle {
+    font-family: "graphikBold", Arial, sans-serif;
+    text-transform: capitalize;
+    color: white;
+    border-radius: 0;
+    display: block;
+    width: 100%;
+    max-width: none;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    line-height: 1.75rem;
+    padding: 8px 24px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: $hotPink;
+    border: 1px solid $hotPink;
+    height: 49px;
+    cursor: pointer;
+    &::before {
+        border: 0;
+    }
+    &::after {
+        content: "";
+        background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3C!-- Generator: Adobe Illustrator 26.4.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 15.1 24' style='enable-background:new 0 0 15.1 24;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%23FFFFFF;%7D .st1%7Bfill:none;%7D%0A%3C/style%3E%3Cpath class='st0' d='M2.8,0.1L0,2.9l9.2,9.2L0,21.2l2.8,2.8l12-12L2.8,0.1z'/%3E%3Cpath class='st1' d='M0,0h48v48H0V0z'/%3E%3C/svg%3E%0A");
+        // background-repeat: no-repeat;
+        background-position: center top;
+        background-repeat: no-repeat;
+        width: 15px;
+        height: 15px;
+        fill: white;
+        margin-left: 10px;
+        position: relative;
+        display: inline-flex;
+        top: 2px;
+    }
+    &:hover {
+        background-color: $hotPinkDarker;
+        border: 1px solid $hotPinkDarker;
+    }
+}
+
 @mixin buttonReversedStyle {
     font-family: "graphikBold", Arial, sans-serif;
     text-transform: capitalize;

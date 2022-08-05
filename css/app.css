@@ -294,6 +294,115 @@
   .app-loaded .apply-flow-page {
     top: -40px;
     position: relative; }
+  .app-loaded .apply-flow-block .apply-flow-profile-item-tile__new-tile {
+    font-family: "graphikBold", Arial, sans-serif;
+    text-transform: capitalize;
+    color: white;
+    border-radius: 0;
+    display: block;
+    width: 100%;
+    max-width: none;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    line-height: 1.75rem;
+    padding: 8px 24px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #d12488;
+    border: 1px solid #d12488;
+    height: 49px;
+    cursor: pointer; }
+    .app-loaded .apply-flow-block .apply-flow-profile-item-tile__new-tile::before {
+      border: 0; }
+    .app-loaded .apply-flow-block .apply-flow-profile-item-tile__new-tile::after {
+      content: "";
+      background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3C!-- Generator: Adobe Illustrator 26.4.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 15.1 24' style='enable-background:new 0 0 15.1 24;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%23FFFFFF;%7D .st1%7Bfill:none;%7D%0A%3C/style%3E%3Cpath class='st0' d='M2.8,0.1L0,2.9l9.2,9.2L0,21.2l2.8,2.8l12-12L2.8,0.1z'/%3E%3Cpath class='st1' d='M0,0h48v48H0V0z'/%3E%3C/svg%3E%0A");
+      background-position: center top;
+      background-repeat: no-repeat;
+      width: 15px;
+      height: 15px;
+      fill: white;
+      margin-left: 10px;
+      position: relative;
+      display: inline-flex;
+      top: 2px; }
+    .app-loaded .apply-flow-block .apply-flow-profile-item-tile__new-tile:hover {
+      background-color: #bc20a6;
+      border: 1px solid #bc20a6; }
+  .app-loaded .apply-flow-pagination__buttons {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; }
+    .app-loaded .apply-flow-pagination__buttons .apply-flow-pagination__button {
+      font-family: "graphikBold", Arial, sans-serif;
+      text-transform: capitalize;
+      color: white;
+      border-radius: 0;
+      display: block;
+      width: 100%;
+      max-width: none;
+      font-size: 18px;
+      letter-spacing: 0.01em;
+      line-height: 1.75rem;
+      padding: 8px 24px;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: #d12488;
+      border: 1px solid #d12488;
+      height: 49px;
+      cursor: pointer; }
+      .app-loaded .apply-flow-pagination__buttons .apply-flow-pagination__button::before {
+        border: 0; }
+      .app-loaded .apply-flow-pagination__buttons .apply-flow-pagination__button::after {
+        content: "";
+        background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3C!-- Generator: Adobe Illustrator 26.4.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 15.1 24' style='enable-background:new 0 0 15.1 24;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%23FFFFFF;%7D .st1%7Bfill:none;%7D%0A%3C/style%3E%3Cpath class='st0' d='M2.8,0.1L0,2.9l9.2,9.2L0,21.2l2.8,2.8l12-12L2.8,0.1z'/%3E%3Cpath class='st1' d='M0,0h48v48H0V0z'/%3E%3C/svg%3E%0A");
+        background-position: center top;
+        background-repeat: no-repeat;
+        width: 15px;
+        height: 15px;
+        fill: white;
+        margin-left: 10px;
+        position: relative;
+        display: inline-flex;
+        top: 2px; }
+      .app-loaded .apply-flow-pagination__buttons .apply-flow-pagination__button:hover {
+        background-color: #bc20a6;
+        border: 1px solid #bc20a6; }
+  .app-loaded .talent-community-subscribe__container .talent-community-subscribe__button {
+    font-family: "graphikBold", Arial, sans-serif;
+    text-transform: capitalize;
+    color: white;
+    border-radius: 0;
+    display: block;
+    width: 100%;
+    max-width: none;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    line-height: 1.75rem;
+    padding: 8px 24px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #d12488;
+    border: 1px solid #d12488;
+    height: 49px;
+    cursor: pointer; }
+    .app-loaded .talent-community-subscribe__container .talent-community-subscribe__button::before {
+      border: 0; }
+    .app-loaded .talent-community-subscribe__container .talent-community-subscribe__button::after {
+      content: "";
+      background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3C!-- Generator: Adobe Illustrator 26.4.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 15.1 24' style='enable-background:new 0 0 15.1 24;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%23FFFFFF;%7D .st1%7Bfill:none;%7D%0A%3C/style%3E%3Cpath class='st0' d='M2.8,0.1L0,2.9l9.2,9.2L0,21.2l2.8,2.8l12-12L2.8,0.1z'/%3E%3Cpath class='st1' d='M0,0h48v48H0V0z'/%3E%3C/svg%3E%0A");
+      background-position: center top;
+      background-repeat: no-repeat;
+      width: 15px;
+      height: 15px;
+      fill: white;
+      margin-left: 10px;
+      position: relative;
+      display: inline-flex;
+      top: 2px; }
+    .app-loaded .talent-community-subscribe__container .talent-community-subscribe__button:hover {
+      background-color: #bc20a6;
+      border: 1px solid #bc20a6; }
   .app-loaded .apply-flow-profile-import .apply-flow-block__header:first-child .apply-flow-block__title {
     position: relative;
     top: -15px;
@@ -303,6 +412,10 @@
     @media (min-width: 768px) {
       .app-loaded .apply-flow-profile-import .apply-flow-block__header:first-child .apply-flow-block__title {
         left: -15px; } }
+  .app-loaded .talent-community-flow__container .apply-flow-block__header:first-child .apply-flow-block__title {
+    top: auto;
+    left: auto;
+    font-size: 18px; }
   .app-loaded .inline-spinner__label {
     font-family: "graphikBold", Arial, sans-serif; }
   .app-loaded .button {
@@ -352,8 +465,6 @@
       color: black; }
     .app-loaded .apply-flow__content .input-row__control {
       color: black; }
-    .app-loaded .apply-flow__content .apply-flow-profile-import-awli__button {
-      width: 246px; }
     .app-loaded .apply-flow__content .apply-btn {
       font-family: "graphikBold", Arial, sans-serif;
       text-transform: capitalize;
@@ -387,20 +498,25 @@
       font-family: "graphikBold", Arial, sans-serif;
       text-transform: capitalize;
       color: white;
-      border-radius: 50px;
+      border-radius: 0;
+      display: block;
+      width: 100%;
+      max-width: none;
       font-size: 18px;
       letter-spacing: 0.01em;
       line-height: 1.75rem;
       padding: 8px 24px;
+      margin-left: auto;
+      margin-right: auto;
       background-color: #d12488;
       border: 1px solid #d12488;
-      height: 32px;
+      height: 49px;
       cursor: pointer; }
       .app-loaded .apply-flow__content .apply-flow-profile-import-awli__button::before {
         border: 0; }
       .app-loaded .apply-flow__content .apply-flow-profile-import-awli__button::after {
         content: "";
-        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' viewBox='0 0 279.085 278.46' style='enable-background:new 0 0 279.085 278.46;' xml:space='preserve'%3E%3Cg%3E%3Cpath style='fill:%23FFF;' d='M211.051,156.682c-1.789,0-3.577,0-5.366,0c-66.463,0.004-132.927-0.037-199.39,0.107 c-4.701,0.01-6.522-1.113-6.272-6.071c0.41-8.14,0.322-16.315,0.164-24.469c-0.07-3.58,0.964-5.036,4.78-5.025 c35.475,0.101,70.951,0.065,106.426,0.043c32.312-0.02,64.623-0.071,96.935-0.124c0.803-0.001,1.606-0.18,2.676-0.308 c-0.478-2.733-2.619-3.946-4.163-5.501c-28.974-29.17-57.986-58.302-86.99-87.442c-4.521-4.542-4.456-4.54,0.073-8.94 c5.614-5.453,11.263-10.885,16.59-16.612c3.011-3.236,4.961-3.025,8.03,0.076c26.704,26.986,53.545,53.836,80.387,80.685 c17.188,17.193,34.358,34.407,51.749,51.394c3.413,3.334,3.034,5.213-0.128,8.362c-44.129,43.943-88.175,87.969-132.115,132.1 c-3.309,3.323-5.301,3.264-8.377-0.116c-5.375-5.906-11.02-11.591-16.858-17.041c-3.098-2.892-2.842-4.714,0.063-7.592 c22.699-22.485,45.228-45.142,67.862-67.693c8.207-8.177,16.556-16.212,24.84-24.312 C211.661,157.696,211.356,157.189,211.051,156.682z'/%3E%3C/g%3E%3C/svg%3E");
+        background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3C!-- Generator: Adobe Illustrator 26.4.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 15.1 24' style='enable-background:new 0 0 15.1 24;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%23FFFFFF;%7D .st1%7Bfill:none;%7D%0A%3C/style%3E%3Cpath class='st0' d='M2.8,0.1L0,2.9l9.2,9.2L0,21.2l2.8,2.8l12-12L2.8,0.1z'/%3E%3Cpath class='st1' d='M0,0h48v48H0V0z'/%3E%3C/svg%3E%0A");
         background-position: center top;
         background-repeat: no-repeat;
         width: 15px;
@@ -408,7 +524,8 @@
         fill: white;
         margin-left: 10px;
         position: relative;
-        display: inline-flex; }
+        display: inline-flex;
+        top: 2px; }
       .app-loaded .apply-flow__content .apply-flow-profile-import-awli__button:hover {
         background-color: #bc20a6;
         border: 1px solid #bc20a6; }
@@ -429,14 +546,19 @@
       font-family: "graphikBold", Arial, sans-serif;
       text-transform: capitalize;
       color: white;
-      border-radius: 50px;
+      border-radius: 0;
+      display: block;
+      width: 100%;
+      max-width: none;
       font-size: 18px;
       letter-spacing: 0.01em;
       line-height: 1.75rem;
       padding: 8px 24px;
+      margin-left: auto;
+      margin-right: auto;
       background-color: #d12488;
       border: 1px solid #d12488;
-      height: 32px;
+      height: 49px;
       cursor: pointer;
       outline: 0;
       height: 36px;
@@ -446,7 +568,7 @@
         border: 0; }
       .app-loaded .apply-flow__content .file-form-element__label::after {
         content: "";
-        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' viewBox='0 0 279.085 278.46' style='enable-background:new 0 0 279.085 278.46;' xml:space='preserve'%3E%3Cg%3E%3Cpath style='fill:%23FFF;' d='M211.051,156.682c-1.789,0-3.577,0-5.366,0c-66.463,0.004-132.927-0.037-199.39,0.107 c-4.701,0.01-6.522-1.113-6.272-6.071c0.41-8.14,0.322-16.315,0.164-24.469c-0.07-3.58,0.964-5.036,4.78-5.025 c35.475,0.101,70.951,0.065,106.426,0.043c32.312-0.02,64.623-0.071,96.935-0.124c0.803-0.001,1.606-0.18,2.676-0.308 c-0.478-2.733-2.619-3.946-4.163-5.501c-28.974-29.17-57.986-58.302-86.99-87.442c-4.521-4.542-4.456-4.54,0.073-8.94 c5.614-5.453,11.263-10.885,16.59-16.612c3.011-3.236,4.961-3.025,8.03,0.076c26.704,26.986,53.545,53.836,80.387,80.685 c17.188,17.193,34.358,34.407,51.749,51.394c3.413,3.334,3.034,5.213-0.128,8.362c-44.129,43.943-88.175,87.969-132.115,132.1 c-3.309,3.323-5.301,3.264-8.377-0.116c-5.375-5.906-11.02-11.591-16.858-17.041c-3.098-2.892-2.842-4.714,0.063-7.592 c22.699-22.485,45.228-45.142,67.862-67.693c8.207-8.177,16.556-16.212,24.84-24.312 C211.661,157.696,211.356,157.189,211.051,156.682z'/%3E%3C/g%3E%3C/svg%3E");
+        background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3C!-- Generator: Adobe Illustrator 26.4.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 15.1 24' style='enable-background:new 0 0 15.1 24;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%23FFFFFF;%7D .st1%7Bfill:none;%7D%0A%3C/style%3E%3Cpath class='st0' d='M2.8,0.1L0,2.9l9.2,9.2L0,21.2l2.8,2.8l12-12L2.8,0.1z'/%3E%3Cpath class='st1' d='M0,0h48v48H0V0z'/%3E%3C/svg%3E%0A");
         background-position: center top;
         background-repeat: no-repeat;
         width: 15px;
@@ -454,7 +576,8 @@
         fill: white;
         margin-left: 10px;
         position: relative;
-        display: inline-flex; }
+        display: inline-flex;
+        top: 2px; }
       .app-loaded .apply-flow__content .file-form-element__label:hover {
         background-color: #bc20a6;
         border: 1px solid #bc20a6; }

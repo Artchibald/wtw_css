@@ -203,6 +203,27 @@
         top: -40px;
         position: relative;
     }
+    // new form buttons
+    .apply-flow-block {
+        .apply-flow-profile-item-tile__new-tile {
+            @include formButtonStyle();
+        }
+    }
+    // send btn
+    .apply-flow-pagination__buttons {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        .apply-flow-pagination__button {
+            @include formButtonStyle();
+        }
+    }
+    // other form send btn
+    .talent-community-subscribe__container {
+        .talent-community-subscribe__button {
+            @include formButtonStyle();
+        }
+    }
     //top title of form
     .apply-flow-profile-import {
         .apply-flow-block__header:first-child {
@@ -215,6 +236,16 @@
                 @media (min-width: $breakpoint-tablet) {
                     left: -15px;
                 }
+            }
+        }
+    }
+    // prevent big title in other form
+    .talent-community-flow__container {
+        .apply-flow-block__header:first-child {
+            .apply-flow-block__title {
+                top: auto;
+                left: auto;
+                font-size: 18px;
             }
         }
     }
@@ -248,14 +279,11 @@
         .input-row__control {
             color: black;
         }
-        .apply-flow-profile-import-awli__button {
-            width: 246px;
-        }
         .apply-btn {
             @include buttonStyle();
         }
         .apply-flow-profile-import-awli__button {
-            @include buttonStyle();
+            @include formButtonStyle();
             &:hover {
                 border: 0;
                 outline: 0;
@@ -276,7 +304,7 @@
         }
         // cv cover letter btns
         .file-form-element__label {
-            @include buttonStyle();
+            @include formButtonStyle();
             outline: 0;
             height: 36px;
             min-width: 210px;
