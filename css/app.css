@@ -283,7 +283,7 @@
     .app-loaded .apply-flow-dialog__button .button__arrow {
       display: none; }
   .app-loaded .apply-flow-dialog__footer .apply-flow-dialog__button {
-    height: 42px;
+    height: 48px;
     font-family: "graphikBold", Arial, sans-serif; }
   .app-loaded .heading,
   .app-loaded .apply-flow-dialog__header,
@@ -297,7 +297,8 @@
   .app-loaded .apply-flow-dialog__content .buttons-bar__inner .button:first-child::after {
     background-image: none; }
   .app-loaded .talent-community-flow__container .buttons-bar__inner .button:first-child::after {
-    background-image: none; }
+    background-image: none;
+    width: 0; }
   .app-loaded .apply-flow-page {
     top: -40px;
     position: relative; }
@@ -606,8 +607,7 @@
     .app-loaded .apply-flow__content .attachment-upload-button-mobile__label {
       width: 234px; }
     .app-loaded .apply-flow__content .input-row__control,
-    .app-loaded .apply-flow__content .oj-select-choice,
-    .app-loaded .apply-flow__content .apply-flow-input-checkbox__button {
+    .app-loaded .apply-flow__content .oj-select-choice {
       border-radius: 0;
       background-color: white;
       border: 1px solid #d8d2db; }
@@ -677,6 +677,15 @@
     color: black; }
   .app-loaded .cs-job-info__metadata {
     color: black; }
+  .app-loaded .candidate-self-service__delete-profile-button {
+    text-transform: capitalize;
+    font-family: "graphikBold", Arial, sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.01rem; }
+    .app-loaded .candidate-self-service__delete-profile-button:hover {
+      text-decoration: underline;
+      text-underline-offset: 2px;
+      cursor: pointer; }
   .app-loaded .notifications__remove-item {
     background-color: #d12488;
     border-radius: 100%; }
@@ -696,6 +705,14 @@
   .app-loaded .cs-talent-community__job-alert-tile-summary-content-preferences,
   .app-loaded .cs-talent-community__job-alert-tile-summary-content-preference {
     color: black; }
+  .app-loaded .apply-flow-input-checkbox__button {
+    border-radius: 0;
+    background-color: white;
+    border: 2px solid #7f35b2; }
+  .app-loaded .input-row__hidden-control {
+    border-radius: 0;
+    background-color: white;
+    border: 2px solid #7f35b2; }
   .app-loaded .apply-flow-input-checkbox__label,
   .app-loaded .apply-flow-input-checkbox__label *,
   .app-loaded .agreements-label-text {

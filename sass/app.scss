@@ -171,7 +171,7 @@
     // difficult btns height,issue on some
     .apply-flow-dialog__footer {
         .apply-flow-dialog__button {
-            height: 42px;
+            height: 48px;
             font-family: "graphikBold", Arial, sans-serif;
         }
     }
@@ -205,6 +205,7 @@
             .button:first-child {
                 &::after {
                     background-image: none;
+                    width: 0;
                 }
             }
         }
@@ -332,8 +333,7 @@
             width: 234px;
         }
         .input-row__control,
-        .oj-select-choice, //checkbox
-        .apply-flow-input-checkbox__button {
+        .oj-select-choice {
             border-radius: 0;
             background-color: white;
             border: 1px solid $grey;
@@ -392,6 +392,10 @@
     .cs-job-info__metadata {
         color: black;
     }
+    // profile delete all btn
+    .candidate-self-service__delete-profile-button {
+        @include linkStyle;
+    }
     // notification close icon
     .notifications__remove-item {
         @include closeIcon;
@@ -404,6 +408,17 @@
     .cs-talent-community__job-alert-tile-summary-content-preferences,
     .cs-talent-community__job-alert-tile-summary-content-preference {
         color: black;
+    }
+    //checkbox
+    .apply-flow-input-checkbox__button {
+        border-radius: 0;
+        background-color: white;
+        border: 2px solid $mainPurple;
+    }
+    .input-row__hidden-control {
+        border-radius: 0;
+        background-color: white;
+        border: 2px solid $mainPurple;
     }
     .apply-flow-input-checkbox__label,
     .apply-flow-input-checkbox__label *,
