@@ -16,7 +16,6 @@ circle square job listing modal
 
 page 3 on ui doc filters and job listing modal
  
-send dbs check paper
 
 
 
@@ -93,3 +92,12 @@ Aideen is RID design team
 get access
 
 79623926
+
+
+# Timescale
+
+Day 1  Wed 3 Aug  8 hours set up env, 1/2 day and start reviewing work and testing solutions
+
+Day 2 Thu 4 8 hours aug Css all day
+
+Day 3 Fri 5 8 hours Aug review, some amends and css all day. More templates than thought before.
