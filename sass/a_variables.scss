@@ -10,12 +10,28 @@ $greyBg: #e6e6e6;
 $hotPink: #d12488;
 $hotPinkDarker: #bc20a6;
 $dark: #212529;
+$notifBorder: #c2a8f0;
 // links
 @mixin linkStyle {
     text-transform: capitalize;
     font-family: "graphikBold", Arial, sans-serif;
     font-size: 18px;
     letter-spacing: 0.01rem;
+    &:hover {
+        text-decoration: underline;
+        text-underline-offset: 2px;
+        cursor: pointer;
+    }
+}
+
+@mixin linkStyle2 {
+    text-transform: capitalize;
+    font-family: "graphikReg", Arial, sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.01rem;
+    color: $mainPurple;
+    text-decoration: none;
+    cursor: pointer;
     &:hover {
         text-decoration: underline;
         text-underline-offset: 2px;
@@ -98,4 +114,27 @@ $dark: #212529;
     &:hover {
         background-color: $hotPinkDarker;
     }
+}
+
+@mixin closeIcon {
+    background-color: $hotPink;
+    border-radius: 100%;
+    .copy-link__icon {
+        color: white;
+    }
+    &::before {
+        color: white;
+        font-size: 16px;
+    }
+    .app-dialog__close-label {
+        display: none;
+    }
+}
+
+@mixin notifBox {
+    border: 2px solid $notifBorder;
+    padding: 32px;
+    background-color: white;
+    box-shadow: none;
+    border-radius: 0;
 }

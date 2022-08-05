@@ -289,13 +289,6 @@
         .attachment-upload-button-mobile__label {
             width: 234px;
         }
-        .input-row__label,
-        .oj-select-chosen,
-        .input-row__control,
-        .apply-flow-input-checkbox__label,
-        .text-truncate__content {
-            color: black;
-        }
         .input-row__control,
         .oj-select-choice,
         .apply-flow-input-checkbox__button {
@@ -330,6 +323,52 @@
     .app-menu__wrapper {
         box-shadow: none;
     }
+    // my profile
+    //info on profile box
+    .cs-application-tile,
+    .cs-talent-community__job-alert-tile {
+        @include notifBox;
+    }
+    // profile box link
+    .cs-button--link {
+        @include linkStyle;
+    }
+    .cs-job-info__title {
+        @include linkStyle;
+    }
+    .cs-job-info__location {
+        color: black;
+    }
+    .cs-job-info__metadata {
+        color: black;
+    }
+    // notification close icon
+    .notifications__remove-item {
+        @include closeIcon;
+    }
+    // style notif box
+    .notifications__item {
+        @include notifBox;
+    }
+    // second profile notif box text
+    .cs-talent-community__job-alert-tile-summary-content-preferences,
+    .cs-talent-community__job-alert-tile-summary-content-preference {
+        color: black;
+    }
+    .apply-flow-input-checkbox__label,
+    .apply-flow-input-checkbox__label *,
+    .agreements-label-text {
+        color: black;
+        a {
+            @include linkStyle2;
+        }
+    }
+    .input-row__label,
+    .oj-select-chosen,
+    .input-row__control,
+    .text-truncate__content {
+        color: black;
+    }
 }
 
 // slide out main menu bg
@@ -347,17 +386,7 @@
     // button.favourite-star,
     // button.share-widget__action,
     button.app-dialog__close {
-        background-color: $hotPink;
-        border-radius: 100%;
-        .copy-link__icon {
-            color: white;
-        }
-        &::before {
-            color: white;
-        }
-        .app-dialog__close-label {
-            display: none;
-        }
+        @include closeIcon;
     }
     button.app-dialog__close {
         @media (min-width: $breakpoint-tablet) {

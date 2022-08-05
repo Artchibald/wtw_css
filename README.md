@@ -6,6 +6,25 @@
 
 # Home mouse icon doesnt do anyhting, take it out?
 
+AMENDS:
+
+Padding too narrow, on btns , bring in
+
+Placeholder text
+
+circle square job listing modal
+
+page 3 on ui doc filters and job listing modal
+ 
+send dbs check paper
+
+
+
+
+
+
+
+
 css file provide
 
 portal updates
