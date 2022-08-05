@@ -601,8 +601,13 @@
     .app-loaded .apply-flow__content .input-row__control,
     .app-loaded .apply-flow__content .oj-select-choice,
     .app-loaded .apply-flow__content .apply-flow-input-checkbox__button {
+      border-radius: 0;
       background-color: white;
       border: 1px solid #d8d2db; }
+    .app-loaded .apply-flow__content .apply-flow-input-checkbox .apply-flow-input-checkbox__button {
+      border-radius: 0;
+      background-color: white;
+      border: 2px solid #7f35b2; }
     .app-loaded .apply-flow__content .candidate-links__add-link {
       text-transform: capitalize;
       font-family: "graphikBold", Arial, sans-serif;

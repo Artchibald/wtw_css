@@ -320,10 +320,18 @@
             width: 234px;
         }
         .input-row__control,
-        .oj-select-choice,
+        .oj-select-choice, //checkbox
         .apply-flow-input-checkbox__button {
+            border-radius: 0;
             background-color: white;
             border: 1px solid $grey;
+        }
+        .apply-flow-input-checkbox {
+            .apply-flow-input-checkbox__button {
+                border-radius: 0;
+                background-color: white;
+                border: 2px solid $mainPurple;
+            }
         }
         .candidate-links__add-link {
             @include linkStyle;
