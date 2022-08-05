@@ -98,10 +98,13 @@ $notifBorder: #c2a8f0;
     padding: 8px 24px;
     margin-left: auto;
     margin-right: auto;
-    background-color: $hotPink;
-    border: 1px solid $hotPink;
+    background-color: $mainPurple;
+    border: 1px solid $mainPurple;
     height: 49px;
     cursor: pointer;
+    .inline-spinner {
+        margin: 0;
+    }
     &::before {
         border: 0;
     }
