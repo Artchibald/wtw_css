@@ -253,6 +253,16 @@
     .apply-flow-fixer__pulse {
         border-radius: 0;
     }
+    .apply-flow-fixer__content {
+        padding: 20px;
+    }
+    .apply-flow-fixer__actions.text-color-primary {
+        button {
+            span {
+                color: white;
+            }
+        }
+    }
     // bring inner form content up
     .apply-flow-page {
         top: -40px;
