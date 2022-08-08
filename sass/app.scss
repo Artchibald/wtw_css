@@ -256,6 +256,9 @@
     .apply-flow-fixer__content {
         padding: 20px;
         @include notifBox;
+        button {
+            max-width: 200px;
+        }
     }
     .apply-flow-fixer__actions.text-color-primary {
         button {
