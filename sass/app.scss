@@ -135,6 +135,7 @@
     }
     .job-details__see-more-button button {
         @include buttonStyle;
+        height: 48px;
     }
     // login
     .buttons-bar__inner {
@@ -143,6 +144,11 @@
             height: 48px;
             .button__arrow {
                 display: none;
+                width: 0;
+            }
+            .button__arrow--right {
+                display: none;
+                width: 0;
             }
         }
         .button:last-child {
@@ -150,6 +156,7 @@
             height: 48px;
             .button__arrow {
                 display: none;
+                width: 0;
             }
         }
     }
@@ -164,8 +171,12 @@
     }
     .apply-flow-dialog__button {
         @include buttonStyle();
+        .button__label {
+            font-family: "graphikBold", Arial, sans-serif;
+        }
         .button__arrow {
             display: none;
+            width: 0;
         }
     }
     // difficult btns height,issue on some
@@ -193,8 +204,13 @@
     .apply-flow-dialog__content {
         .buttons-bar__inner {
             .button:first-child {
+                .button__arrow--right {
+                    display: none;
+                    width: 0;
+                }
                 &::after {
                     background-image: none;
+                    width: 0;
                 }
             }
         }
@@ -203,12 +219,20 @@
     .talent-community-flow__container {
         .buttons-bar__inner {
             .button:first-child {
+                .button__arrow--right {
+                    display: none;
+                    width: 0;
+                }
                 &::after {
                     background-image: none;
                     width: 0;
                 }
             }
         }
+    }
+    // confirm page
+    .pin-code-form__action-button {
+        @include linkStyle;
     }
     // form
     // bring inner form content up
@@ -274,6 +298,10 @@
         }
         span {
             font-family: "graphikBold", Arial, sans-serif;
+        }
+        .button__arrow--left {
+            display: none;
+            width: 0;
         }
     }
     .apply-flow__content {
@@ -353,6 +381,7 @@
         }
         .button__arrow {
             display: none;
+            width: 0;
         }
     }
     h2.apply-flow-block__title,
@@ -433,6 +462,14 @@
     .input-row__control,
     .text-truncate__content {
         color: black;
+    }
+    span.button__arrow.button__arrow--left {
+        display: none;
+        width: 0;
+        &::after {
+            display: none;
+            width: 0;
+        }
     }
 }
 
