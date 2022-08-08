@@ -258,6 +258,13 @@
         }
     }
     // form
+    // form Linkedin Button
+    .awli-apply-button {
+        button {
+            @include buttonStyle;
+            background-color: black;
+        }
+    }
     // form remove uppercase
     .attachment-upload-button__drag-and-drop-label {
         text-transform: capitalize;
@@ -536,14 +543,18 @@
             width: 96%;
         }
     }
-    // tick boxes in disability
+    // radio boxes in disability
     .apply-flow-input-radio__button {
         background-color: white;
-        border: 1px solid $grey;
-        &:before {
-            background-color: white;
-            border: 1px solid $grey;
-        }
+        border: 2px solid $mainPurple;
+        // &:before {
+        //     background-color: white;
+        //     border: 1px solid $mainPurple;
+        // }
+    }
+    // radio filled size
+    .apply-flow-input-radio__button--checked::before {
+        transform: scale(2);
     }
     // notification close icon
     .notifications__remove-item {
