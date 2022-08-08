@@ -6,6 +6,11 @@
 
 # Home mouse icon doesnt do anyhting, take it out?
 
+# watch scss task
+
+ node-sass -w sass/ -o css/
+
+ 
 AMENDS:
 
 Padding too narrow, on btns , bring in
