@@ -36,6 +36,8 @@
   .app-loaded .search-box-compact__button-border,
   .app-loaded .search-box-compact__button-background {
     border-radius: 0px; }
+  .app-loaded .search-box-compact__label.text-color-secondary {
+    text-transform: capitalize; }
   .app-loaded .search-box-compact__fieldset::before {
     border-radius: 0; }
   .app-loaded .icon-search-thin.theme-color-1 {
@@ -99,7 +101,7 @@
     font-size: 18px;
     letter-spacing: 0.01em;
     line-height: 1.75rem;
-    padding: 8px 24px;
+    padding: 8px 16px;
     background-color: #d12488;
     border: 1px solid #d12488;
     height: 32px;
@@ -123,7 +125,10 @@
   .app-loaded .job-details__subtitle,
   .app-loaded .job-details__section *,
   .app-loaded .job-meta__list * {
-    color: black; }
+    color: black;
+    text-transform: capitalize; }
+  .app-loaded .inline-spinner {
+    margin: 0; }
   .app-loaded .apply-now-button {
     font-family: "graphikBold", Arial, sans-serif;
     text-transform: capitalize;
@@ -132,7 +137,7 @@
     font-size: 18px;
     letter-spacing: 0.01em;
     line-height: 1.75rem;
-    padding: 8px 24px;
+    padding: 8px 16px;
     background-color: #d12488;
     border: 1px solid #d12488;
     height: 32px;
@@ -161,7 +166,7 @@
     font-size: 18px;
     letter-spacing: 0.01em;
     line-height: 1.75rem;
-    padding: 8px 24px;
+    padding: 8px 16px;
     background-color: #d12488;
     border: 1px solid #d12488;
     height: 32px;
@@ -226,7 +231,7 @@
     font-size: 18px;
     letter-spacing: 0.01em;
     line-height: 1.75rem;
-    padding: 8px 24px;
+    padding: 8px 16px;
     background-color: #d12488;
     border: 1px solid #d12488;
     height: 32px;
@@ -265,7 +270,7 @@
     font-size: 18px;
     letter-spacing: 0.01em;
     line-height: 1.75rem;
-    padding: 8px 24px;
+    padding: 8px 16px;
     background-color: #d12488;
     border: 1px solid #d12488;
     height: 32px;
@@ -314,7 +319,8 @@
     width: 0; }
   .app-loaded .talent-community-flow__container .buttons-bar__inner .button:first-child::after {
     background-image: none;
-    width: 0; }
+    width: 0;
+    display: none; }
   .app-loaded .pin-code-form__action-button {
     text-transform: capitalize;
     font-family: "graphikBold", Arial, sans-serif;
@@ -328,6 +334,8 @@
     border-radius: 0; }
   .app-loaded .input-row__control-container .input-row__control {
     border-radius: 0; }
+  .app-loaded .attachment-upload-button__drag-and-drop-label {
+    text-transform: capitalize; }
   .app-loaded .apply-flow-fixer__content,
   .app-loaded .apply-flow-fixer__pulse {
     border-radius: 0; }
@@ -339,7 +347,11 @@
     box-shadow: none;
     border-radius: 0; }
     .app-loaded .apply-flow-fixer__content button {
-      max-width: 200px; }
+      max-width: 172px;
+      padding: 8px 12px; }
+    .app-loaded .apply-flow-fixer__content .cookie-consent__abstract-message {
+      text-transform: capitalize;
+      color: black; }
   .app-loaded .apply-flow-fixer__actions.text-color-primary button span {
     color: white; }
   .app-loaded .apply-flow-fixer__pointer:before {
@@ -439,7 +451,7 @@
     border: 1px solid #d12488;
     height: 48px;
     cursor: pointer;
-    max-width: 144px;
+    max-width: fit-content;
     display: inline; }
     .app-loaded footer.apply-flow-pagination__buttons button.button:first-child::before {
       border: 0;
@@ -473,13 +485,13 @@
     font-size: 18px;
     letter-spacing: 0.01em;
     line-height: 1.75rem;
-    padding: 8px 24px;
+    padding: 8px 16px;
     background-color: #d12488;
     border: 1px solid #d12488;
     height: 32px;
     cursor: pointer;
     height: 48px;
-    max-width: 144px; }
+    max-width: fit-content; }
     .app-loaded footer.apply-flow-pagination__buttons button.button:last-child::before {
       border: 0; }
     .app-loaded footer.apply-flow-pagination__buttons button.button:last-child::after {
@@ -562,7 +574,7 @@
     font-size: 18px;
     letter-spacing: 0.01em;
     line-height: 1.75rem;
-    padding: 8px 24px;
+    padding: 8px 16px;
     background-color: #d12488;
     border: 1px solid #d12488;
     height: 32px;
@@ -616,7 +628,7 @@
       font-size: 18px;
       letter-spacing: 0.01em;
       line-height: 1.75rem;
-      padding: 8px 24px;
+      padding: 8px 16px;
       background-color: #d12488;
       border: 1px solid #d12488;
       height: 32px;
@@ -874,6 +886,8 @@
     .app-loaded span.button__arrow.button__arrow--left::after {
       display: none;
       width: 0; }
+  .app-loaded .footer-links__item {
+    text-transform: capitalize; }
 
 .body--menu-opened .app-menu {
   background-color: rgba(0, 0, 0, 0.8); }

@@ -43,6 +43,10 @@
     .search-box-compact__button-background {
         border-radius: 0px;
     }
+    // search box remove uppercase
+    .search-box-compact__label.text-color-secondary {
+        text-transform: capitalize;
+    }
     //searchbox mobile
     .search-box-compact__fieldset::before {
         border-radius: 0;
@@ -129,6 +133,10 @@
     .job-details__section *,
     .job-meta__list * {
         color: black;
+        text-transform: capitalize;
+    }
+    .inline-spinner {
+        margin: 0;
     }
     .apply-now-button {
         @include buttonStyle;
@@ -226,6 +234,7 @@
                 &::after {
                     background-image: none;
                     width: 0;
+                    display: none;
                 }
             }
         }
@@ -248,6 +257,10 @@
         }
     }
     // form
+    // form remove uppercase
+    .attachment-upload-button__drag-and-drop-label {
+        text-transform: capitalize;
+    }
     // form error box
     .apply-flow-fixer__content,
     .apply-flow-fixer__pulse {
@@ -257,7 +270,13 @@
         padding: 20px;
         @include notifBox;
         button {
-            max-width: 200px;
+            max-width: 172px;
+            padding: 8px 12px;
+        }
+        //text lowercase
+        .cookie-consent__abstract-message {
+            text-transform: capitalize;
+            color: black;
         }
     }
     .apply-flow-fixer__actions.text-color-primary {
@@ -298,7 +317,7 @@
     footer.apply-flow-pagination__buttons {
         button.button:first-child {
             @include buttonReversedStyle();
-            max-width: 144px;
+            max-width: fit-content;
             display: inline;
             &:before {
                 display: inline-block;
@@ -316,7 +335,7 @@
         button.button:last-child {
             @include buttonStyle();
             height: 48px;
-            max-width: 144px;
+            max-width: fit-content;
             &::after {
                 margin-left: 5px;
             }
@@ -550,6 +569,10 @@
             display: none;
             width: 0;
         }
+    }
+    // main footer
+    .footer-links__item {
+        text-transform: capitalize;
     }
 }
 
