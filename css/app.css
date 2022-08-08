@@ -819,6 +819,13 @@
     color: black; }
   .app-loaded .cs-job-info__metadata {
     color: black; }
+  .app-loaded .cs-talent-community-multiselect-pill {
+    background-color: #f1f0f2;
+    border: 1px solid #99909f;
+    color: #7f35b2;
+    border-radius: 30px; }
+    .app-loaded .cs-talent-community-multiselect-pill:hover {
+      background-color: #ddd8e0; }
   .app-loaded .candidate-self-service__delete-profile-button {
     text-transform: capitalize;
     font-family: "graphikBold", Arial, sans-serif;
@@ -828,6 +835,16 @@
       text-decoration: underline;
       text-underline-offset: 2px;
       cursor: pointer; }
+  .app-loaded .regulatory-disability {
+    background-color: white; }
+    .app-loaded .regulatory-disability td {
+      width: 96%; }
+  .app-loaded .apply-flow-input-radio__button {
+    background-color: white;
+    border: 1px solid #d8d2db; }
+    .app-loaded .apply-flow-input-radio__button:before {
+      background-color: white;
+      border: 1px solid #d8d2db; }
   .app-loaded .notifications__remove-item {
     background-color: #d12488;
     border-radius: 100%; }

@@ -1,6 +1,7 @@
 @import "./a_variables.scss";
 @import "./b_breakpoints.scss";
 @import "./c_fonts.scss";
+@import "./d_mixins.scss";
 // nested target parent
 .app-loaded {
     * {
@@ -520,9 +521,29 @@
     .cs-job-info__metadata {
         color: black;
     }
+    // profile tags
+    .cs-talent-community-multiselect-pill {
+        @include tags;
+    }
     // profile delete all btn
     .candidate-self-service__delete-profile-button {
         @include linkStyle;
+    }
+    // profile disabilirty info
+    .regulatory-disability {
+        background-color: white;
+        td {
+            width: 96%;
+        }
+    }
+    // tick boxes in disability
+    .apply-flow-input-radio__button {
+        background-color: white;
+        border: 1px solid $grey;
+        &:before {
+            background-color: white;
+            border: 1px solid $grey;
+        }
     }
     // notification close icon
     .notifications__remove-item {
