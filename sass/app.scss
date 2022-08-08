@@ -234,6 +234,19 @@
     .pin-code-form__action-button {
         @include linkStyle;
     }
+    .input-row__control-container {
+        .pin-code-input {
+            .pin-code-input__input {
+                border-radius: 0;
+            }
+        }
+    }
+    // join page
+    .input-row__control-container {
+        .input-row__control {
+            border-radius: 0;
+        }
+    }
     // form
     // bring inner form content up
     .apply-flow-page {
@@ -312,6 +325,9 @@
             border: 1px solid $grey;
             padding-left: 10px;
             padding-right: 10px;
+        }
+        .apply-flow-profile-import__awli-content {
+            border-radius: 0;
         }
         .apply-flow-block__instructions {
             color: black;
