@@ -328,6 +328,9 @@
     border-radius: 0; }
   .app-loaded .input-row__control-container .input-row__control {
     border-radius: 0; }
+  .app-loaded .apply-flow-fixer__content,
+  .app-loaded .apply-flow-fixer__pulse {
+    border-radius: 0; }
   .app-loaded .apply-flow-page {
     top: -40px;
     position: relative; }
@@ -422,7 +425,7 @@
     border: 1px solid #d12488;
     height: 48px;
     cursor: pointer;
-    max-width: 158px;
+    max-width: 144px;
     display: inline; }
     .app-loaded footer.apply-flow-pagination__buttons button.button:first-child::before {
       border: 0;
@@ -440,7 +443,8 @@
     .app-loaded footer.apply-flow-pagination__buttons button.button:first-child:hover {
       background-color: #bc20a6; }
     .app-loaded footer.apply-flow-pagination__buttons button.button:first-child:before {
-      display: inline-block; }
+      display: inline-block;
+      margin-right: 0; }
     .app-loaded footer.apply-flow-pagination__buttons button.button:first-child:after {
       display: none; }
     .app-loaded footer.apply-flow-pagination__buttons button.button:first-child .button__arrow {
@@ -461,7 +465,7 @@
     height: 32px;
     cursor: pointer;
     height: 48px;
-    max-width: 158px; }
+    max-width: 144px; }
     .app-loaded footer.apply-flow-pagination__buttons button.button:last-child::before {
       border: 0; }
     .app-loaded footer.apply-flow-pagination__buttons button.button:last-child::after {
@@ -478,6 +482,12 @@
     .app-loaded footer.apply-flow-pagination__buttons button.button:last-child:hover {
       background-color: #bc20a6;
       border: 1px solid #bc20a6; }
+    .app-loaded footer.apply-flow-pagination__buttons button.button:last-child::after {
+      margin-left: 5px; }
+    .app-loaded footer.apply-flow-pagination__buttons button.button:last-child .button__arrow {
+      display: none;
+      height: 0;
+      width: 0; }
   .app-loaded .talent-community-subscribe__container .talent-community-subscribe__button {
     font-family: "graphikBold", Arial, sans-serif;
     text-transform: capitalize;
@@ -752,6 +762,8 @@
     color: black; }
   .app-loaded .app-menu__wrapper {
     box-shadow: none; }
+  .app-loaded .cs-header {
+    text-transform: capitalize; }
   .app-loaded .cs-application-tile,
   .app-loaded .cs-talent-community__job-alert-tile {
     border: 2px solid #c2a8f0;

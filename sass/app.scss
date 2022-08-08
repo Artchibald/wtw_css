@@ -248,6 +248,11 @@
         }
     }
     // form
+    // form error box
+    .apply-flow-fixer__content,
+    .apply-flow-fixer__pulse {
+        border-radius: 0;
+    }
     // bring inner form content up
     .apply-flow-page {
         top: -40px;
@@ -272,10 +277,11 @@
     footer.apply-flow-pagination__buttons {
         button.button:first-child {
             @include buttonReversedStyle();
-            max-width: 158px;
+            max-width: 144px;
             display: inline;
             &:before {
                 display: inline-block;
+                margin-right: 0;
             }
             &:after {
                 display: none;
@@ -289,7 +295,15 @@
         button.button:last-child {
             @include buttonStyle();
             height: 48px;
-            max-width: 158px;
+            max-width: 144px;
+            &::after {
+                margin-left: 5px;
+            }
+            .button__arrow {
+                display: none;
+                height: 0;
+                width: 0;
+            }
         }
     }
     // other form send btn
@@ -444,6 +458,10 @@
         box-shadow: none;
     }
     // my profile
+    // box header titles
+    .cs-header {
+        text-transform: capitalize;
+    }
     //info on profile box
     .cs-application-tile,
     .cs-talent-community__job-alert-tile {

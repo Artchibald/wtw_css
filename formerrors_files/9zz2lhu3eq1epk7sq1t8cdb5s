@@ -1,0 +1,2 @@
+(function(){LIModules.exports("ajax",{getScript:function(a,c){var b=document.createElement("script");b.src=a;this.executeScript(b,c)},executeScript:function(a,c){if(a){var b=document.head||document.getElementsByTagName("head")[0]||document.documentElement;a.async="async";var d=function(){b&&a.parentNode&&b.removeChild(a);a=void 0};a.src&&(a.onload=a.onreadystatechange=function(b,e){if(e||!a.readyState||/loaded|complete/.test(a.readyState))a.onload=a.onreadystatechange=null,d(),!e&&c&&c()});a=b.insertBefore(a,
+b.firstChild);"undefined"===typeof a||a.src||(d(),c&&c())}}})})();
