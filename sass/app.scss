@@ -255,12 +255,20 @@
     }
     .apply-flow-fixer__content {
         padding: 20px;
+        @include notifBox;
     }
     .apply-flow-fixer__actions.text-color-primary {
         button {
             span {
                 color: white;
             }
+        }
+    }
+    // notif box top arrow
+    .apply-flow-fixer__pointer {
+        &:before {
+            top: 11px;
+            border: 2px solid $notifBorder;
         }
     }
     // bring inner form content up

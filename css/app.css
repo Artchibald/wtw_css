@@ -332,9 +332,17 @@
   .app-loaded .apply-flow-fixer__pulse {
     border-radius: 0; }
   .app-loaded .apply-flow-fixer__content {
-    padding: 20px; }
+    padding: 20px;
+    border: 2px solid #c2a8f0;
+    padding: 32px;
+    background-color: white;
+    box-shadow: none;
+    border-radius: 0; }
   .app-loaded .apply-flow-fixer__actions.text-color-primary button span {
     color: white; }
+  .app-loaded .apply-flow-fixer__pointer:before {
+    top: 11px;
+    border: 2px solid #c2a8f0; }
   .app-loaded .apply-flow-page {
     top: -40px;
     position: relative; }
