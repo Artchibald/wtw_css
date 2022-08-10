@@ -7,12 +7,20 @@
     * {
         font-family: "graphikReg", Arial, sans-serif;
     }
+    // header settings icon dropdown on profile
+    .context-menu {
+        @include notifBox;
+    }
     //header elements
     // .app__top {
     //     border-bottom: 1px solid $grey;
     // }
     // remove horiz scrolbar
     overflow-x: hidden;
+    // home
+    .scroll-suggest {
+        display: none;
+    }
     //empty space above banner removal
     .cc-element.cc-element--rich-text {
         display: none;
@@ -408,7 +416,7 @@
         padding: 1em;
         .apply-flow-profile-import__awli-content {
             background-color: white;
-            border: 1px solid $grey;
+            border: 1px solid $greyBorder;
             padding-left: 10px;
             padding-right: 10px;
         }
@@ -432,13 +440,12 @@
             &:hover {
                 border: 0;
                 outline: 0;
-                background-color: $hotPinkDarker;
             }
         }
         .apply-flow-profile-import-awli__file-upload:hover~.apply-flow-profile-import-awli__button {
             border: 0;
             outline: 0;
-            background-color: $hotPinkDarker;
+            background-color: $mainPurpleDarker;
         }
         .apply-flow-block__title {
             color: black;
@@ -466,7 +473,6 @@
         .oj-select-choice {
             border-radius: 0;
             background-color: white;
-            border: 1px solid $grey;
         }
         .apply-flow-input-checkbox {
             .apply-flow-input-checkbox__button {
@@ -492,6 +498,11 @@
         text-transform: capitalize;
         font-family: "graphikBold", Arial, sans-serif;
         color: black;
+    }
+    // all fields better border
+    .input-row__control,
+    .oj-text-field-container .oj-select-choice {
+        border: 1px solid $greyBorder;
     }
     //menu
     span.oj-select-chosen,

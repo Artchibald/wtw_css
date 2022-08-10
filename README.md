@@ -1,15 +1,18 @@
-# legality of Base64 web rights?
+## legality of Base64 web rights?
 
-# What do we use for caps? Arial?
+## What do we use for caps? Arial?
 
-# If anything looks really wrong please let me know, I will write the amend down
+## If anything looks really wrong please let me know, I will write the amend down
 
-# Home mouse icon doesnt do anyhting, take it out?
+## Home mouse icon doesnt do anyhting, took it out
+
+## Banner image css solution?
 
 # watch scss task
 
  node-sass -w sass/ -o css/
 
+chase up hosting image
  
 AMENDS:
 
@@ -26,7 +29,7 @@ page 3 on ui doc filters and job listing modal
 
 
 
-
+Will do, thank you for reminding me. Also, I quoted 4 - 6 days for this job. This is my fourth day.
 
 
 css file provide

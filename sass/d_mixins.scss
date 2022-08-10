@@ -69,6 +69,13 @@
         background-color: $hotPinkDarker;
         border: 1px solid $hotPinkDarker;
     }
+    &:active {
+        background-color: $hotPinkClicked;
+    }
+    &:focus {
+        outline: 2px solid $btnOutline;
+        border: 1px solid white;
+    }
 }
 
 // button
@@ -77,6 +84,7 @@
     text-transform: capitalize;
     color: white;
     border-radius: 0;
+    cursor: pointer;
     display: block;
     width: 100%;
     max-width: none;
@@ -89,7 +97,6 @@
     background-color: $mainPurple;
     border: 1px solid $mainPurple;
     height: 54px;
-    cursor: pointer;
     .inline-spinner {
         margin: 0;
     }
@@ -111,8 +118,15 @@
         top: 2px;
     }
     &:hover {
-        background-color: $hotPinkDarker;
-        border: 1px solid $hotPinkDarker;
+        background-color: $mainPurpleDarker;
+        border: 1px solid $mainPurpleDarker;
+    }
+    &:active {
+        background-color: $mainPurpleClicked;
+    }
+    &:focus {
+        outline: 2px solid $btnOutline;
+        border: 1px solid white;
     }
 }
 
@@ -146,6 +160,13 @@
     }
     &:hover {
         background-color: $hotPinkDarker;
+    }
+    &:active {
+        background-color: $hotPinkClicked;
+    }
+    &:focus {
+        outline: 2px solid $btnOutline;
+        border: 1px solid white;
     }
 }
 

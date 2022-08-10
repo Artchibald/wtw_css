@@ -110,8 +110,8 @@
     letter-spacing: 0.01em;
     line-height: 1.75rem;
     padding: 8px 16px;
-    background-color: #d124b8;
-    border: 1px solid #d124b8;
+    background-color: #d12488;
+    border: 1px solid #d12488;
     height: 32px;
     cursor: pointer; }
     .app-loaded .talent-community-tile__actions a.button::before {
@@ -130,11 +130,6 @@
     .app-loaded .talent-community-tile__actions a.button:hover {
       background-color: #bc20a6;
       border: 1px solid #bc20a6; }
-    .app-loaded .talent-community-tile__actions a.button:active {
-      background-color: #ac1d93; }
-    .app-loaded .talent-community-tile__actions a.button:focus {
-      outline: 2px solid #327fef;
-      border: 1px solid white; }
   .app-loaded .job-details__subtitle,
   .app-loaded .job-details__section *,
   .app-loaded .job-meta__list * {
@@ -151,8 +146,8 @@
     letter-spacing: 0.01em;
     line-height: 1.75rem;
     padding: 8px 16px;
-    background-color: #d124b8;
-    border: 1px solid #d124b8;
+    background-color: #d12488;
+    border: 1px solid #d12488;
     height: 32px;
     cursor: pointer; }
     .app-loaded .apply-now-button::before {
@@ -171,11 +166,6 @@
     .app-loaded .apply-now-button:hover {
       background-color: #bc20a6;
       border: 1px solid #bc20a6; }
-    .app-loaded .apply-now-button:active {
-      background-color: #ac1d93; }
-    .app-loaded .apply-now-button:focus {
-      outline: 2px solid #327fef;
-      border: 1px solid white; }
   .app-loaded .job-details__see-more-button button {
     font-family: "graphikBold", Arial, sans-serif;
     text-transform: capitalize;
@@ -185,8 +175,8 @@
     letter-spacing: 0.01em;
     line-height: 1.75rem;
     padding: 8px 16px;
-    background-color: #d124b8;
-    border: 1px solid #d124b8;
+    background-color: #d12488;
+    border: 1px solid #d12488;
     height: 32px;
     cursor: pointer;
     height: 48px; }
@@ -206,11 +196,6 @@
     .app-loaded .job-details__see-more-button button:hover {
       background-color: #bc20a6;
       border: 1px solid #bc20a6; }
-    .app-loaded .job-details__see-more-button button:active {
-      background-color: #ac1d93; }
-    .app-loaded .job-details__see-more-button button:focus {
-      outline: 2px solid #327fef;
-      border: 1px solid white; }
   .app-loaded .buttons-bar__inner .button:first-child {
     font-family: "graphikBold", Arial, sans-serif;
     text-transform: capitalize;
@@ -220,8 +205,8 @@
     letter-spacing: 0.01em;
     line-height: 1.75rem;
     padding: 8px 24px;
-    background-color: #d124b8;
-    border: 1px solid #d124b8;
+    background-color: #d12488;
+    border: 1px solid #d12488;
     height: 48px;
     cursor: pointer;
     height: 48px; }
@@ -240,11 +225,6 @@
       left: -5px; }
     .app-loaded .buttons-bar__inner .button:first-child:hover {
       background-color: #bc20a6; }
-    .app-loaded .buttons-bar__inner .button:first-child:active {
-      background-color: #ac1d93; }
-    .app-loaded .buttons-bar__inner .button:first-child:focus {
-      outline: 2px solid #327fef;
-      border: 1px solid white; }
     .app-loaded .buttons-bar__inner .button:first-child .button__arrow {
       display: none;
       width: 0; }
@@ -260,8 +240,8 @@
     letter-spacing: 0.01em;
     line-height: 1.75rem;
     padding: 8px 16px;
-    background-color: #d124b8;
-    border: 1px solid #d124b8;
+    background-color: #d12488;
+    border: 1px solid #d12488;
     height: 32px;
     cursor: pointer;
     height: 48px; }
@@ -281,11 +261,6 @@
     .app-loaded .buttons-bar__inner .button:last-child:hover {
       background-color: #bc20a6;
       border: 1px solid #bc20a6; }
-    .app-loaded .buttons-bar__inner .button:last-child:active {
-      background-color: #ac1d93; }
-    .app-loaded .buttons-bar__inner .button:last-child:focus {
-      outline: 2px solid #327fef;
-      border: 1px solid white; }
     .app-loaded .buttons-bar__inner .button:last-child .button__arrow {
       display: none;
       width: 0; }
@@ -304,8 +279,8 @@
     letter-spacing: 0.01em;
     line-height: 1.75rem;
     padding: 8px 16px;
-    background-color: #d124b8;
-    border: 1px solid #d124b8;
+    background-color: #d12488;
+    border: 1px solid #d12488;
     height: 32px;
     cursor: pointer; }
     .app-loaded .apply-flow-dialog__button::before {
@@ -324,11 +299,6 @@
     .app-loaded .apply-flow-dialog__button:hover {
       background-color: #bc20a6;
       border: 1px solid #bc20a6; }
-    .app-loaded .apply-flow-dialog__button:active {
-      background-color: #ac1d93; }
-    .app-loaded .apply-flow-dialog__button:focus {
-      outline: 2px solid #327fef;
-      border: 1px solid white; }
     .app-loaded .apply-flow-dialog__button .button__label {
       font-family: "graphikBold", Arial, sans-serif; }
     .app-loaded .apply-flow-dialog__button .button__arrow {
@@ -381,8 +351,8 @@
     letter-spacing: 0.01em;
     line-height: 1.75rem;
     padding: 8px 16px;
-    background-color: #d124b8;
-    border: 1px solid #d124b8;
+    background-color: #d12488;
+    border: 1px solid #d12488;
     height: 32px;
     cursor: pointer;
     background-color: black; }
@@ -402,11 +372,6 @@
     .app-loaded .awli-apply-button button:hover {
       background-color: #bc20a6;
       border: 1px solid #bc20a6; }
-    .app-loaded .awli-apply-button button:active {
-      background-color: #ac1d93; }
-    .app-loaded .awli-apply-button button:focus {
-      outline: 2px solid #327fef;
-      border: 1px solid white; }
   .app-loaded .attachment-upload-button__drag-and-drop-label {
     text-transform: capitalize; }
   .app-loaded .apply-flow-fixer__content,
@@ -438,7 +403,6 @@
     text-transform: capitalize;
     color: white;
     border-radius: 0;
-    cursor: pointer;
     display: block;
     width: 100%;
     max-width: none;
@@ -450,7 +414,8 @@
     margin-right: auto;
     background-color: #7f35b2;
     border: 1px solid #7f35b2;
-    height: 54px; }
+    height: 54px;
+    cursor: pointer; }
     .app-loaded .apply-flow-block .apply-flow-profile-item-tile__new-tile .inline-spinner {
       margin: 0; }
     .app-loaded .apply-flow-block .apply-flow-profile-item-tile__new-tile::before {
@@ -468,13 +433,8 @@
       display: inline-flex;
       top: 2px; }
     .app-loaded .apply-flow-block .apply-flow-profile-item-tile__new-tile:hover {
-      background-color: #6a2d93;
-      border: 1px solid #6a2d93; }
-    .app-loaded .apply-flow-block .apply-flow-profile-item-tile__new-tile:active {
-      background-color: #602785; }
-    .app-loaded .apply-flow-block .apply-flow-profile-item-tile__new-tile:focus {
-      outline: 2px solid #327fef;
-      border: 1px solid white; }
+      background-color: #bc20a6;
+      border: 1px solid #bc20a6; }
   .app-loaded .apply-flow-pagination__buttons {
     margin-left: auto;
     margin-right: auto;
@@ -484,7 +444,6 @@
       text-transform: capitalize;
       color: white;
       border-radius: 0;
-      cursor: pointer;
       display: block;
       width: 100%;
       max-width: none;
@@ -496,7 +455,8 @@
       margin-right: auto;
       background-color: #7f35b2;
       border: 1px solid #7f35b2;
-      height: 54px; }
+      height: 54px;
+      cursor: pointer; }
       .app-loaded .apply-flow-pagination__buttons .apply-flow-pagination__button .inline-spinner {
         margin: 0; }
       .app-loaded .apply-flow-pagination__buttons .apply-flow-pagination__button::before {
@@ -514,13 +474,8 @@
         display: inline-flex;
         top: 2px; }
       .app-loaded .apply-flow-pagination__buttons .apply-flow-pagination__button:hover {
-        background-color: #6a2d93;
-        border: 1px solid #6a2d93; }
-      .app-loaded .apply-flow-pagination__buttons .apply-flow-pagination__button:active {
-        background-color: #602785; }
-      .app-loaded .apply-flow-pagination__buttons .apply-flow-pagination__button:focus {
-        outline: 2px solid #327fef;
-        border: 1px solid white; }
+        background-color: #bc20a6;
+        border: 1px solid #bc20a6; }
   .app-loaded footer.apply-flow-pagination__buttons button.button:first-child {
     font-family: "graphikBold", Arial, sans-serif;
     text-transform: capitalize;
@@ -530,8 +485,8 @@
     letter-spacing: 0.01em;
     line-height: 1.75rem;
     padding: 8px 24px;
-    background-color: #d124b8;
-    border: 1px solid #d124b8;
+    background-color: #d12488;
+    border: 1px solid #d12488;
     height: 48px;
     cursor: pointer;
     max-width: fit-content;
@@ -551,11 +506,6 @@
       left: -5px; }
     .app-loaded footer.apply-flow-pagination__buttons button.button:first-child:hover {
       background-color: #bc20a6; }
-    .app-loaded footer.apply-flow-pagination__buttons button.button:first-child:active {
-      background-color: #ac1d93; }
-    .app-loaded footer.apply-flow-pagination__buttons button.button:first-child:focus {
-      outline: 2px solid #327fef;
-      border: 1px solid white; }
     .app-loaded footer.apply-flow-pagination__buttons button.button:first-child:before {
       display: inline-block;
       margin-right: 0; }
@@ -574,8 +524,8 @@
     letter-spacing: 0.01em;
     line-height: 1.75rem;
     padding: 8px 16px;
-    background-color: #d124b8;
-    border: 1px solid #d124b8;
+    background-color: #d12488;
+    border: 1px solid #d12488;
     height: 32px;
     cursor: pointer;
     height: 48px;
@@ -596,11 +546,6 @@
     .app-loaded footer.apply-flow-pagination__buttons button.button:last-child:hover {
       background-color: #bc20a6;
       border: 1px solid #bc20a6; }
-    .app-loaded footer.apply-flow-pagination__buttons button.button:last-child:active {
-      background-color: #ac1d93; }
-    .app-loaded footer.apply-flow-pagination__buttons button.button:last-child:focus {
-      outline: 2px solid #327fef;
-      border: 1px solid white; }
     .app-loaded footer.apply-flow-pagination__buttons button.button:last-child::after {
       margin-left: 5px; }
     .app-loaded footer.apply-flow-pagination__buttons button.button:last-child .button__arrow {
@@ -612,7 +557,6 @@
     text-transform: capitalize;
     color: white;
     border-radius: 0;
-    cursor: pointer;
     display: block;
     width: 100%;
     max-width: none;
@@ -624,7 +568,8 @@
     margin-right: auto;
     background-color: #7f35b2;
     border: 1px solid #7f35b2;
-    height: 54px; }
+    height: 54px;
+    cursor: pointer; }
     .app-loaded .talent-community-subscribe__container .talent-community-subscribe__button .inline-spinner {
       margin: 0; }
     .app-loaded .talent-community-subscribe__container .talent-community-subscribe__button::before {
@@ -642,13 +587,8 @@
       display: inline-flex;
       top: 2px; }
     .app-loaded .talent-community-subscribe__container .talent-community-subscribe__button:hover {
-      background-color: #6a2d93;
-      border: 1px solid #6a2d93; }
-    .app-loaded .talent-community-subscribe__container .talent-community-subscribe__button:active {
-      background-color: #602785; }
-    .app-loaded .talent-community-subscribe__container .talent-community-subscribe__button:focus {
-      outline: 2px solid #327fef;
-      border: 1px solid white; }
+      background-color: #bc20a6;
+      border: 1px solid #bc20a6; }
   .app-loaded .apply-flow-profile-import .apply-flow-block__header:first-child .apply-flow-block__title {
     position: relative;
     top: -15px;
@@ -673,8 +613,8 @@
     letter-spacing: 0.01em;
     line-height: 1.75rem;
     padding: 8px 16px;
-    background-color: #d124b8;
-    border: 1px solid #d124b8;
+    background-color: #d12488;
+    border: 1px solid #d12488;
     height: 32px;
     cursor: pointer;
     max-width: 264px;
@@ -695,11 +635,6 @@
     .app-loaded .button:hover {
       background-color: #bc20a6;
       border: 1px solid #bc20a6; }
-    .app-loaded .button:active {
-      background-color: #ac1d93; }
-    .app-loaded .button:focus {
-      outline: 2px solid #327fef;
-      border: 1px solid white; }
     .app-loaded .button ::before {
       border: 0; }
     .app-loaded .button span {
@@ -732,8 +667,8 @@
       letter-spacing: 0.01em;
       line-height: 1.75rem;
       padding: 8px 16px;
-      background-color: #d124b8;
-      border: 1px solid #d124b8;
+      background-color: #d12488;
+      border: 1px solid #d12488;
       height: 32px;
       cursor: pointer; }
       .app-loaded form.apply-flow__content .apply-btn::before {
@@ -752,17 +687,11 @@
       .app-loaded form.apply-flow__content .apply-btn:hover {
         background-color: #bc20a6;
         border: 1px solid #bc20a6; }
-      .app-loaded form.apply-flow__content .apply-btn:active {
-        background-color: #ac1d93; }
-      .app-loaded form.apply-flow__content .apply-btn:focus {
-        outline: 2px solid #327fef;
-        border: 1px solid white; }
     .app-loaded form.apply-flow__content .apply-flow-profile-import-awli__button {
       font-family: "graphikBold", Arial, sans-serif;
       text-transform: capitalize;
       color: white;
       border-radius: 0;
-      cursor: pointer;
       display: block;
       width: 100%;
       max-width: none;
@@ -774,7 +703,8 @@
       margin-right: auto;
       background-color: #7f35b2;
       border: 1px solid #7f35b2;
-      height: 54px; }
+      height: 54px;
+      cursor: pointer; }
       .app-loaded form.apply-flow__content .apply-flow-profile-import-awli__button .inline-spinner {
         margin: 0; }
       .app-loaded form.apply-flow__content .apply-flow-profile-import-awli__button::before {
@@ -792,20 +722,16 @@
         display: inline-flex;
         top: 2px; }
       .app-loaded form.apply-flow__content .apply-flow-profile-import-awli__button:hover {
-        background-color: #6a2d93;
-        border: 1px solid #6a2d93; }
-      .app-loaded form.apply-flow__content .apply-flow-profile-import-awli__button:active {
-        background-color: #602785; }
-      .app-loaded form.apply-flow__content .apply-flow-profile-import-awli__button:focus {
-        outline: 2px solid #327fef;
-        border: 1px solid white; }
+        background-color: #bc20a6;
+        border: 1px solid #bc20a6; }
       .app-loaded form.apply-flow__content .apply-flow-profile-import-awli__button:hover {
         border: 0;
-        outline: 0; }
+        outline: 0;
+        background-color: #bc20a6; }
     .app-loaded form.apply-flow__content .apply-flow-profile-import-awli__file-upload:hover ~ .apply-flow-profile-import-awli__button {
       border: 0;
       outline: 0;
-      background-color: #6a2d93; }
+      background-color: #bc20a6; }
     .app-loaded form.apply-flow__content .apply-flow-block__title {
       color: black;
       font-family: "graphikBold", Arial, sans-serif; }
@@ -816,7 +742,6 @@
       text-transform: capitalize;
       color: white;
       border-radius: 0;
-      cursor: pointer;
       display: block;
       width: 100%;
       max-width: none;
@@ -829,6 +754,7 @@
       background-color: #7f35b2;
       border: 1px solid #7f35b2;
       height: 54px;
+      cursor: pointer;
       outline: 0;
       height: 36px;
       min-width: 210px;
@@ -850,13 +776,8 @@
         display: inline-flex;
         top: 2px; }
       .app-loaded form.apply-flow__content .file-form-element__label:hover {
-        background-color: #6a2d93;
-        border: 1px solid #6a2d93; }
-      .app-loaded form.apply-flow__content .file-form-element__label:active {
-        background-color: #602785; }
-      .app-loaded form.apply-flow__content .file-form-element__label:focus {
-        outline: 2px solid #327fef;
-        border: 1px solid white; }
+        background-color: #bc20a6;
+        border: 1px solid #bc20a6; }
     .app-loaded form.apply-flow__content .attachment-upload-button-mobile::before {
       border: 0;
       outline: 0; }
@@ -964,7 +885,7 @@
   .app-loaded .apply-flow-input-radio__button--checked::before {
     transform: scale(2); }
   .app-loaded .notifications__remove-item {
-    background-color: #d124b8;
+    background-color: #d12488;
     border-radius: 100%; }
     .app-loaded .notifications__remove-item .copy-link__icon {
       color: white; }
@@ -1031,7 +952,7 @@
   background-color: rgba(0, 0, 0, 0.8); }
 
 .app-dialog__bar button.app-dialog__close {
-  background-color: #d124b8;
+  background-color: #d12488;
   border-radius: 100%; }
   .app-dialog__bar button.app-dialog__close .copy-link__icon {
     color: white; }
