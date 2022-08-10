@@ -44,8 +44,10 @@
   .app-loaded .search-box-compact__button-border,
   .app-loaded .search-box-compact__button-background {
     border-radius: 0px; }
-  .app-loaded .search-box-compact__fieldset .search-box-compact__field #keyword {
+  .app-loaded .search-box-compact__fieldset .search-box-compact__input {
     color: #2f2c31; }
+    .app-loaded .search-box-compact__fieldset .search-box-compact__input::placeholder {
+      color: #2f2c31; }
   .app-loaded .search-box-compact__fieldset .search-box-compact__label span {
     color: #2f2c31; }
   .app-loaded .search-box-compact__fieldset .search-box-compact__label .search-box-compact__menu-button span {
@@ -71,6 +73,13 @@
       text-decoration: underline;
       text-underline-offset: 2px;
       cursor: pointer; }
+  .app-loaded .search-filters__counter {
+    color: #2f2c31;
+    text-transform: capitalize; }
+  .app-loaded .search-jobs__misc-spacer {
+    color: #2f2c31; }
+  .app-loaded .search-filters__pill-title {
+    text-transform: capitalize; }
   .app-loaded .search-filters__header {
     color: #2f2c31;
     text-transform: capitalize; }
@@ -94,6 +103,8 @@
     color: #2f2c31; }
   .app-loaded .job-tile__secondary-locations * {
     font-family: "graphikBold", Arial, sans-serif; }
+  .app-loaded .job-list-sorting__label {
+    text-transform: capitalize; }
   .app-loaded .job-tile.job-list-item:hover {
     background-color: #7f35b2; }
     .app-loaded .job-tile.job-list-item:hover h2.job-tile__title {
@@ -413,8 +424,11 @@
     .app-loaded .awli-apply-button button:focus {
       outline: 2px solid #327fef;
       border: 1px solid white; }
-  .app-loaded .attachment-upload-button__drag-and-drop-label {
-    text-transform: capitalize; }
+  .app-loaded .attachment-upload-button__drag-and-drop-label,
+  .app-loaded .attachment-upload-button__or,
+  .app-loaded .file-upload-attachments-preuploaded {
+    text-transform: capitalize;
+    color: #2f2c31; }
   .app-loaded .apply-flow-fixer__content,
   .app-loaded .apply-flow-fixer__pulse {
     border-radius: 0; }
@@ -913,6 +927,9 @@
     color: #2f2c31; }
   .app-loaded .app-menu__wrapper {
     box-shadow: none; }
+  .app-loaded .candidate-self-service__name,
+  .app-loaded .candidate-self-service__email {
+    color: #2f2c31; }
   .app-loaded .cs-header {
     text-transform: capitalize; }
   .app-loaded .cs-application-tile,
@@ -1029,9 +1046,11 @@
       width: 0; }
   .app-loaded .app-footer {
     background-color: #2f2c31; }
-    .app-loaded .app-footer .footer-links__item {
+    .app-loaded .app-footer .footer-links__item a {
       text-transform: capitalize;
       color: white; }
+      .app-loaded .app-footer .footer-links__item a:visited {
+        color: white; }
   .app-loaded .cookie-consent__content {
     border-radius: 0; }
     .app-loaded .cookie-consent__content .cookie-consent__pulse {

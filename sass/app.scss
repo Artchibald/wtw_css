@@ -54,8 +54,9 @@
     }
     // search box text colors
     .search-box-compact__fieldset {
-        .search-box-compact__field {
-            #keyword {
+        .search-box-compact__input {
+            color: $onyxBlack;
+            &::placeholder {
                 color: $onyxBlack;
             }
         }
@@ -96,6 +97,17 @@
     .search-box-compact__menu-item button {
         @include linkStyle;
     }
+    // 3890 OPEN JOBS below search before tags
+    .search-filters__counter {
+        color: $onyxBlack;
+        text-transform: capitalize;
+    }
+    .search-jobs__misc-spacer {
+        color: $onyxBlack;
+    }
+    .search-filters__pill-title {
+        text-transform: capitalize;
+    }
     // filters menu, different css page?
     .search-filters__header {
         color: $onyxBlack;
@@ -126,6 +138,10 @@
     }
     .job-tile__secondary-locations * {
         font-family: "graphikBold", Arial, sans-serif;
+    }
+    // job listing sort
+    .job-list-sorting__label {
+        text-transform: capitalize;
     }
     // results hover bg
     .job-tile.job-list-item {
@@ -292,8 +308,11 @@
         }
     }
     // form remove uppercase
-    .attachment-upload-button__drag-and-drop-label {
+    .attachment-upload-button__drag-and-drop-label,
+    .attachment-upload-button__or,
+    .file-upload-attachments-preuploaded {
         text-transform: capitalize;
+        color: $onyxBlack;
     }
     // form error box
     .apply-flow-fixer__content,
@@ -535,6 +554,11 @@
         box-shadow: none;
     }
     // my profile
+    // ny mane in black
+    .candidate-self-service__name,
+    .candidate-self-service__email {
+        color: $onyxBlack;
+    }
     // box header titles
     .cs-header {
         text-transform: capitalize;
@@ -635,8 +659,13 @@
     .app-footer {
         background-color: $onyxBlack;
         .footer-links__item {
-            text-transform: capitalize;
-            color: white;
+            a {
+                text-transform: capitalize;
+                color: white;
+                &:visited {
+                    color: white;
+                }
+            }
         }
     }
     // cookie constent
