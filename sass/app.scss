@@ -128,6 +128,10 @@
         color: $onyxBlack;
         text-transform: capitalize;
     }
+    .search-facet-dropdown__list-container {
+        border-radius: 0;
+        box-shadow: none;
+    }
     .search-facet-dropdown__filter-button,
     .search-filters__set-filter,
     .search-jobs__toggle-filters,
@@ -727,6 +731,12 @@
             flex-grow: unset;
         }
     }
+    // push job spec modal down
+    .app-dialog__wrapper.app-dialog__wrapper--active {
+        @media (min-width: $breakpoint-tablet) {
+            padding-top: 80px;
+        }
+    }
 }
 
 // slide out main menu bg
@@ -745,14 +755,25 @@
     // button.share-widget__action,
     button.app-dialog__close {
         @include closeIcon;
-        width: 30px;
-        height: 30px;
+        width: 44px;
+        height: 44px;
         &::before {
-            font-size: 10px;
+            font-size: 34px;
+            content: "\00D7";
+            position: relative;
+            top: -2px;
+            display: block;
+            transition: none;
+        }
+        &:hover {
+            opacity: 0.8;
+            &::before {
+                transform: none;
+            }
         }
         @media (min-width: $breakpoint-tablet) {
             position: relative;
-            top: -65px;
+            top: -80px;
             left: 20px;
         }
     }
