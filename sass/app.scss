@@ -52,6 +52,24 @@
     .search-box-compact__button-background {
         border-radius: 0px;
     }
+    // search box text colors
+    .search-box-compact__fieldset {
+        .search-box-compact__field {
+            #keyword {
+                color: $onyxBlack;
+            }
+        }
+        .search-box-compact__label {
+            span {
+                color: $onyxBlack;
+            }
+            .search-box-compact__menu-button {
+                span {
+                    color: $mainPurple;
+                }
+            }
+        }
+    }
     // search box remove uppercase
     .search-box-compact__label.text-color-secondary {
         text-transform: capitalize;
@@ -80,7 +98,7 @@
     }
     // filters menu, different css page?
     .search-filters__header {
-        color: black;
+        color: $onyxBlack;
         text-transform: capitalize;
     }
     .search-filters__set-filter,
@@ -101,10 +119,10 @@
         font-size: 16px;
     }
     .search-jobs__counter.text-color-secondary {
-        color: black;
+        color: $onyxBlack;
     }
     .job-list-item__description {
-        color: black;
+        color: $onyxBlack;
     }
     .job-tile__secondary-locations * {
         font-family: "graphikBold", Arial, sans-serif;
@@ -126,7 +144,7 @@
         }
         // job results
         .job-tile__subheader * {
-            color: black;
+            color: $onyxBlack;
         }
     }
     // result cta title
@@ -141,7 +159,7 @@
     .job-details__subtitle,
     .job-details__section *,
     .job-meta__list * {
-        color: black;
+        color: $onyxBlack;
         text-transform: capitalize;
     }
     .inline-spinner {
@@ -181,7 +199,7 @@
     h1.heading,
     .apply-flow-dialog__text,
     .input-row__linebreak {
-        color: black;
+        color: $onyxBlack;
     }
     .input-row__linebreak {
         font-family: "graphikBold", Arial, sans-serif;
@@ -206,16 +224,16 @@
     .heading,
     .apply-flow-dialog__header,
     .apply-flow-dialog__text {
-        color: black;
+        color: $onyxBlack;
     }
     .input-row__label {
         .input-row__linebreak {
             font-family: "graphikBold", Arial, sans-serif;
-            color: black;
+            color: $onyxBlack;
         }
     }
     .input-row__control {
-        color: black;
+        color: $onyxBlack;
     }
     // welcome back, remove forward arrow on btn exception
     .apply-flow-dialog__content {
@@ -270,7 +288,7 @@
     .awli-apply-button {
         button {
             @include buttonStyle;
-            background-color: black;
+            background-color: $onyxBlack;
         }
     }
     // form remove uppercase
@@ -292,7 +310,7 @@
         //text lowercase
         .cookie-consent__abstract-message {
             text-transform: capitalize;
-            color: black;
+            color: $onyxBlack;
         }
     }
     .apply-flow-fixer__actions.text-color-primary {
@@ -424,13 +442,13 @@
             border-radius: 0;
         }
         .apply-flow-block__instructions {
-            color: black;
+            color: $onyxBlack;
         }
         .input-row__control-container * {
-            color: black;
+            color: $onyxBlack;
         }
         .input-row__control {
-            color: black;
+            color: $onyxBlack;
         }
         .apply-btn {
             @include buttonStyle();
@@ -448,7 +466,7 @@
             background-color: $mainPurpleDarker;
         }
         .apply-flow-block__title {
-            color: black;
+            color: $onyxBlack;
             font-family: "graphikBold", Arial, sans-serif;
         }
         .input-row__label * {
@@ -497,7 +515,7 @@
     .apply-flow-block__title {
         text-transform: capitalize;
         font-family: "graphikBold", Arial, sans-serif;
-        color: black;
+        color: $onyxBlack;
     }
     // all fields better border
     .input-row__control,
@@ -511,7 +529,7 @@
     }
     .app-menu__subitem {
         text-transform: uppercase;
-        color: black;
+        color: $onyxBlack;
     }
     .app-menu__wrapper {
         box-shadow: none;
@@ -534,10 +552,10 @@
         @include linkStyle;
     }
     .cs-job-info__location {
-        color: black;
+        color: $onyxBlack;
     }
     .cs-job-info__metadata {
-        color: black;
+        color: $onyxBlack;
     }
     // profile tags
     .cs-talent-community-multiselect-pill {
@@ -578,7 +596,7 @@
     // second profile notif box text
     .cs-talent-community__job-alert-tile-summary-content-preferences,
     .cs-talent-community__job-alert-tile-summary-content-preference {
-        color: black;
+        color: $onyxBlack;
     }
     //checkbox
     .apply-flow-input-checkbox__button {
@@ -594,7 +612,7 @@
     .apply-flow-input-checkbox__label,
     .apply-flow-input-checkbox__label *,
     .agreements-label-text {
-        color: black;
+        color: $onyxBlack;
         a {
             @include linkStyle2;
         }
@@ -603,7 +621,7 @@
     .oj-select-chosen,
     .input-row__control,
     .text-truncate__content {
-        color: black;
+        color: $onyxBlack;
     }
     span.button__arrow.button__arrow--left {
         display: none;
@@ -614,12 +632,27 @@
         }
     }
     // main footer
-    .footer-links__item {
-        text-transform: capitalize;
+    .app-footer {
+        background-color: $onyxBlack;
+        .footer-links__item {
+            text-transform: capitalize;
+            color: white;
+        }
     }
     // cookie constent
-    .cookie-consent__button {
-        flex-grow: unset;
+    .cookie-consent__content {
+        border-radius: 0;
+        .cookie-consent__pulse {
+            border-radius: 0;
+        }
+        .cookie-consent__abstract {
+            span {
+                color: $onyxBlack;
+            }
+        }
+        .cookie-consent__button {
+            flex-grow: unset;
+        }
     }
 }
 
