@@ -617,6 +617,10 @@
     .footer-links__item {
         text-transform: capitalize;
     }
+    // cookie constent
+    .cookie-consent__button {
+        flex-grow: unset;
+    }
 }
 
 // slide out main menu bg

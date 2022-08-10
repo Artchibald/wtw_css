@@ -1023,6 +1023,8 @@
       width: 0; }
   .app-loaded .footer-links__item {
     text-transform: capitalize; }
+  .app-loaded .cookie-consent__button {
+    flex-grow: unset; }
 
 .body--menu-opened .app-menu {
   background-color: rgba(0, 0, 0, 0.8); }
