@@ -116,7 +116,8 @@
     .search-filters__set-filter,
     .search-jobs__toggle-filters,
     .search-jobs__clear-filter {
-        @include linkHoverStyle;
+        @include linkStyle2;
+        font-size: 12px;
     }
     // result amends start here
     //tags
@@ -332,6 +333,10 @@
             color: $onyxBlack;
         }
     }
+    // link dropdown style Show fields link
+    .talent-community-flow__toggle-button {
+        @include linkStyle2;
+    }
     .apply-flow-fixer__actions.text-color-primary {
         button {
             span {
@@ -520,6 +525,7 @@
         }
         .candidate-links__add-link {
             @include linkStyle;
+            font-size: 13px;
         }
         .text-truncate__toggle {
             @include linkStyle;
@@ -553,6 +559,10 @@
     .app-menu__wrapper {
         box-shadow: none;
     }
+    .context-menu__link,
+    .context-menu__link span {
+        @include linkStyle2;
+    }
     // my profile
     // ny mane in black
     .candidate-self-service__name,
@@ -563,6 +573,8 @@
     .cs-header {
         text-transform: capitalize;
         color: $onyxBlack;
+        font-family: "graphikBold", Arial, sans-serif;
+        font-size: 18px;
     }
     //info on profile box
     .cs-talent-community__job-alert {

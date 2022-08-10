@@ -5,6 +5,10 @@
     font-family: "graphikBold", Arial, sans-serif;
     font-size: 18px;
     letter-spacing: 0.01rem;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-color: $backgroundHoverTag;
+    cursor: pointer;
     &:hover {
         text-decoration: underline;
         text-underline-offset: 2px;
@@ -20,6 +24,9 @@
     color: $mainPurple;
     text-decoration: none;
     cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-color: $backgroundHoverTag;
     &:hover {
         text-decoration: underline;
         text-underline-offset: 2px;
