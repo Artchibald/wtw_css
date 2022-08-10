@@ -931,7 +931,10 @@
   .app-loaded .candidate-self-service__email {
     color: #2f2c31; }
   .app-loaded .cs-header {
-    text-transform: capitalize; }
+    text-transform: capitalize;
+    color: #2f2c31; }
+  .app-loaded .cs-talent-community__job-alert {
+    padding: 0; }
   .app-loaded .cs-application-tile,
   .app-loaded .cs-talent-community__job-alert-tile {
     border: 2px solid #c2a8f0;

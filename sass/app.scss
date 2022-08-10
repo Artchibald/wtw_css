@@ -562,8 +562,12 @@
     // box header titles
     .cs-header {
         text-transform: capitalize;
+        color: $onyxBlack;
     }
     //info on profile box
+    .cs-talent-community__job-alert {
+        padding: 0;
+    }
     .cs-application-tile,
     .cs-talent-community__job-alert-tile {
         @include notifBox;
