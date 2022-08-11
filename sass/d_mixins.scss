@@ -209,3 +209,10 @@
         background-color: $backgroundHoverTag;
     }
 }
+
+@mixin h2Style {
+    font-family: "graphikBold", Arial, sans-serif;
+    text-align: left;
+    font-size: 32px;
+    color: $onyxBlack;
+}

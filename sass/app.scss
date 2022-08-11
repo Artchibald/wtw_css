@@ -149,6 +149,16 @@
         font-family: "graphikBold", Arial, sans-serif;
         text-transform: capitalize;
     }
+    // align titles to the right
+    .job-details__section {
+        h2 {
+            @include h2Style;
+        }
+    }
+    // media slider in job listing not working, hiding
+    .media-slider.job-details__media-slider {
+        display: none;
+    }
     .search-breadcrumbs__breadcrumb {
         margin: 10px 10px 0 0;
         border-radius: 50px;
@@ -204,6 +214,25 @@
         color: $onyxBlack;
         text-transform: capitalize;
     }
+    // job modal bulet points edits
+    .basic-formatter {
+        ul {
+            list-style: none;
+            li {
+                &::before {
+                    content: "\2022";
+                    color: $mainPurple;
+                    font-weight: bold;
+                    display: inline-block;
+                    width: 20px;
+                    font-size: 24px;
+                    margin-left: -1em;
+                    position: relative;
+                    top: 4px;
+                }
+            }
+        }
+    }
     .inline-spinner {
         margin: 0;
     }
@@ -213,6 +242,10 @@
     .job-details__see-more-button button {
         @include buttonStyle;
         height: 48px;
+    }
+    // job spec smiliar jobs title
+    .heading.job-details__title {
+        @include h2Style;
     }
     // login
     .buttons-bar__inner {
@@ -755,15 +788,25 @@
     // button.share-widget__action,
     button.app-dialog__close {
         @include closeIcon;
-        width: 44px;
-        height: 44px;
+        width: 36px;
+        height: 36px;
+        top: -4px;
+        position: relative;
+        @media (min-width: $breakpoint-tablet) {
+            width: 44px;
+            height: 44px;
+            top: auto;
+        }
         &::before {
-            font-size: 34px;
+            font-size: 30px;
             content: "\00D7";
             position: relative;
             top: -2px;
             display: block;
             transition: none;
+            @media (min-width: $breakpoint-tablet) {
+                font-size: 34px;
+            }
         }
         &:hover {
             opacity: 0.8;

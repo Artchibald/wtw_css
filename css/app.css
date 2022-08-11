@@ -142,6 +142,13 @@
   .app-loaded .search-jobs__misc * {
     font-family: "graphikBold", Arial, sans-serif;
     text-transform: capitalize; }
+  .app-loaded .job-details__section h2 {
+    font-family: "graphikBold", Arial, sans-serif;
+    text-align: left;
+    font-size: 32px;
+    color: #2f2c31; }
+  .app-loaded .media-slider.job-details__media-slider {
+    display: none; }
   .app-loaded .search-breadcrumbs__breadcrumb {
     margin: 10px 10px 0 0;
     border-radius: 50px;
@@ -219,6 +226,18 @@
   .app-loaded .job-meta__list * {
     color: #2f2c31;
     text-transform: capitalize; }
+  .app-loaded .basic-formatter ul {
+    list-style: none; }
+    .app-loaded .basic-formatter ul li::before {
+      content: "\2022";
+      color: #7f35b2;
+      font-weight: bold;
+      display: inline-block;
+      width: 20px;
+      font-size: 24px;
+      margin-left: -1em;
+      position: relative;
+      top: 4px; }
   .app-loaded .inline-spinner {
     margin: 0; }
   .app-loaded .apply-now-button {
@@ -290,6 +309,11 @@
     .app-loaded .job-details__see-more-button button:focus {
       outline: 2px solid #327fef;
       border: 1px solid white; }
+  .app-loaded .heading.job-details__title {
+    font-family: "graphikBold", Arial, sans-serif;
+    text-align: left;
+    font-size: 32px;
+    color: #2f2c31; }
   .app-loaded .buttons-bar__inner .button:first-child {
     font-family: "graphikBold", Arial, sans-serif;
     text-transform: capitalize;
@@ -1234,8 +1258,10 @@
 .app-dialog__bar button.app-dialog__close {
   background-color: #d124b8;
   border-radius: 100%;
-  width: 44px;
-  height: 44px; }
+  width: 36px;
+  height: 36px;
+  top: -4px;
+  position: relative; }
   .app-dialog__bar button.app-dialog__close .copy-link__icon {
     color: white; }
   .app-dialog__bar button.app-dialog__close::before {
@@ -1243,13 +1269,21 @@
     font-size: 16px; }
   .app-dialog__bar button.app-dialog__close .app-dialog__close-label {
     display: none; }
+  @media (min-width: 768px) {
+    .app-dialog__bar button.app-dialog__close {
+      width: 44px;
+      height: 44px;
+      top: auto; } }
   .app-dialog__bar button.app-dialog__close::before {
-    font-size: 34px;
+    font-size: 30px;
     content: "\00D7";
     position: relative;
     top: -2px;
     display: block;
     transition: none; }
+    @media (min-width: 768px) {
+      .app-dialog__bar button.app-dialog__close::before {
+        font-size: 34px; } }
   .app-dialog__bar button.app-dialog__close:hover {
     opacity: 0.8; }
     .app-dialog__bar button.app-dialog__close:hover::before {
