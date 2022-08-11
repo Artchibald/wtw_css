@@ -217,3 +217,53 @@
     font-size: 32px;
     color: $onyxBlack;
 }
+
+// form labels
+@mixin h6Style {
+    font-family: "graphikBold", Arial, sans-serif;
+    font-family: "Graphik LCG Web", arial, sans-serif;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 26px;
+    font-weight: 600;
+    text-align: left;
+    color: $onyxBlack;
+}
+
+@mixin formField {
+    text-transform: capitalize;
+    font-family: "graphikReg", Arial, sans-serif;
+    font-size: 18px;
+    height: 56px;
+    border: 1px solid $greyBorder;
+    color: $onyxBlack;
+    &:hover {
+        border: 2px solid $greyBorder;
+    }
+    &:active {
+        border-bottom: 2px solid $onyxBlack;
+    }
+    &:focus {
+        outline: 2px solid $btnOutline;
+        border: 1px solid white;
+    }
+}
+
+@mixin formField2 {
+    // text-transform: capitalize;
+    // font-family: "graphikReg", Arial, sans-serif;
+    // font-size: 18px;
+    // height: 56px;
+    // border: 1px solid $greyBorder;
+    // color: $onyxBlack;
+    &:hover {
+        border: 2px solid $greyBorder;
+    }
+    &:active {
+        border-bottom: 2px solid $onyxBlack;
+    }
+    &:focus {
+        outline: 2px solid $btnOutline;
+        border: 1px solid white;
+    }
+}

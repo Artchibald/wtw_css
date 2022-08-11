@@ -30,7 +30,10 @@
     padding: 32px;
     background-color: white;
     box-shadow: none;
-    border-radius: 0; }
+    border-radius: 0;
+    color: #2f2c31; }
+    .app-loaded .context-menu span {
+      color: #2f2c31; }
   .app-loaded .app-header__current-page-title {
     text-transform: capitalize;
     font-family: "graphikBold", Arial, sans-serif;
@@ -1024,10 +1027,32 @@
       outline: 0; }
     .app-loaded form.apply-flow__content .attachment-upload-button-mobile__label {
       width: 234px; }
-    .app-loaded form.apply-flow__content .input-row__control,
+    .app-loaded form.apply-flow__content .input-row__control {
+      text-transform: capitalize;
+      font-family: "graphikReg", Arial, sans-serif;
+      font-size: 18px;
+      height: 56px;
+      border: 1px solid #99909f;
+      color: #2f2c31;
+      border-radius: 0;
+      background-color: white; }
+      .app-loaded form.apply-flow__content .input-row__control:hover {
+        border: 2px solid #99909f; }
+      .app-loaded form.apply-flow__content .input-row__control:active {
+        border-bottom: 2px solid #2f2c31; }
+      .app-loaded form.apply-flow__content .input-row__control:focus {
+        outline: 2px solid #327fef;
+        border: 1px solid white; }
     .app-loaded form.apply-flow__content .oj-select-choice {
       border-radius: 0;
       background-color: white; }
+      .app-loaded form.apply-flow__content .oj-select-choice:hover {
+        border: 2px solid #99909f; }
+      .app-loaded form.apply-flow__content .oj-select-choice:active {
+        border-bottom: 2px solid #2f2c31; }
+      .app-loaded form.apply-flow__content .oj-select-choice:focus {
+        outline: 2px solid #327fef;
+        border: 1px solid white; }
     .app-loaded form.apply-flow__content .apply-flow-input-checkbox .apply-flow-input-checkbox__button {
       border-radius: 0;
       background-color: white;
