@@ -128,6 +128,10 @@
         text-transform: capitalize;
     }
     // filters menu
+    // style dropdowns
+    .search-filters__pill {
+        @include tags;
+    }
     .search-filters__header {
         color: $onyxBlack;
         text-transform: capitalize;
@@ -181,6 +185,11 @@
     // job listing sort
     .job-list-sorting__label {
         text-transform: capitalize;
+    }
+    .job-list-sorting__selector {
+        @include tags;
+        padding: 8px 10px;
+        font-size: 12px;
     }
     // results hover bg
     .job-tile.job-list-item {

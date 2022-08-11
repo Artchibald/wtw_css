@@ -110,6 +110,13 @@
     color: #2f2c31; }
   .app-loaded .search-filters__pill-title {
     text-transform: capitalize; }
+  .app-loaded .search-filters__pill {
+    background-color: #f1f0f2;
+    border: 1px solid #99909f;
+    color: #7f35b2;
+    border-radius: 30px; }
+    .app-loaded .search-filters__pill:hover {
+      background-color: #ddd8e0; }
   .app-loaded .search-filters__header {
     color: #2f2c31;
     text-transform: capitalize; }
@@ -177,6 +184,15 @@
     font-family: "graphikBold", Arial, sans-serif; }
   .app-loaded .job-list-sorting__label {
     text-transform: capitalize; }
+  .app-loaded .job-list-sorting__selector {
+    background-color: #f1f0f2;
+    border: 1px solid #99909f;
+    color: #7f35b2;
+    border-radius: 30px;
+    padding: 8px 10px;
+    font-size: 12px; }
+    .app-loaded .job-list-sorting__selector:hover {
+      background-color: #ddd8e0; }
   .app-loaded .job-tile.job-list-item h2.job-tile__title {
     text-transform: capitalize;
     font-family: "graphikBold", Arial, sans-serif;
