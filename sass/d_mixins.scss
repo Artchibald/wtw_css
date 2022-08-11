@@ -5,14 +5,16 @@
     font-family: "graphikBold", Arial, sans-serif;
     font-size: 18px;
     letter-spacing: 0.01rem;
-    text-decoration: underline;
+    border-bottom: 1px solid $backgroundHoverTag;
     text-underline-offset: 2px;
-    text-decoration-color: $backgroundHoverTag;
-    line-height: 24px;
+    line-height: 18px;
     cursor: pointer;
+    transition-property: border-bottom, color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    padding: 0 0 2px 0;
     &:hover {
-        text-decoration: underline;
-        text-underline-offset: 2px;
+        border-bottom: 1px solid black;
         cursor: pointer;
     }
 }
@@ -24,13 +26,14 @@
     letter-spacing: 0.01rem;
     color: $mainPurple;
     text-decoration: none;
+    border-bottom: 1px solid $backgroundHoverTag;
     cursor: pointer;
-    text-decoration: underline;
-    text-underline-offset: 2px;
-    text-decoration-color: $backgroundHoverTag;
+    transition-property: border-bottom, color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    width: fit-content;
     &:hover {
-        text-decoration: underline;
-        text-underline-offset: 2px;
+        border-bottom: 1px solid black;
         cursor: pointer;
     }
 }
@@ -72,10 +75,15 @@
         margin-left: 10px;
         position: relative;
         display: inline-flex;
+        transition: transform 0.2s linear;
     }
     &:hover {
         background-color: $hotPinkDarker;
         border: 1px solid $hotPinkDarker;
+        transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        &::after {
+            transform: translateX(25%);
+        }
     }
     &:active {
         background-color: $hotPinkClicked;
@@ -124,10 +132,15 @@
         position: relative;
         display: inline-flex;
         top: 2px;
+        transition: transform 0.2s linear;
     }
     &:hover {
         background-color: $mainPurpleDarker;
         border: 1px solid $mainPurpleDarker;
+        transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        &::after {
+            transform: translateX(25%);
+        }
     }
     &:active {
         background-color: $mainPurpleClicked;

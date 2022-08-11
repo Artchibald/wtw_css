@@ -1,3 +1,5 @@
+/* https://github.com/Artchibald/wtw_css */
+
 @import "./a_variables.scss";
 @import "./b_breakpoints.scss";
 @import "./c_fonts.scss";
@@ -200,6 +202,7 @@
         h2.job-tile__title {
             @include linkStyle;
             margin-bottom: 10px;
+            width: fit-content;
         }
         &:hover {
             background-color: $mainPurple;
@@ -386,7 +389,7 @@
     }
     .pin-code-form__action-button {
         @include linkStyle;
-        color: $onyxBlack;
+        color: $mainPurple;
         &:visited {
             color: $onyxBlack;
         }
