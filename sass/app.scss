@@ -30,6 +30,10 @@
     // .app__top {
     //     border-bottom: 1px solid $grey;
     // }
+    // header job title with dropdown when  apply now is clicked
+    .app-header__current-page-title {
+        @include linkStyle;
+    }
     // remove horiz scrolbar
     overflow-x: hidden;
     // home
@@ -180,11 +184,15 @@
     }
     // results hover bg
     .job-tile.job-list-item {
+        h2.job-tile__title {
+            @include linkStyle;
+            margin-bottom: 10px;
+        }
         &:hover {
             background-color: $mainPurple;
             h2.job-tile__title {
-                @include linkStyle;
                 color: white;
+                display: block;
             }
             // job results
             .job-tile__subheader *,
@@ -222,11 +230,10 @@
                 &::before {
                     content: "\2022";
                     color: $mainPurple;
-                    font-weight: bold;
                     display: inline-block;
                     width: 20px;
                     font-size: 24px;
-                    margin-left: -1em;
+                    margin-left: -21px;
                     position: relative;
                     top: 4px;
                 }
@@ -428,6 +435,10 @@
         .apply-flow-pagination__button {
             @include formButtonStyle();
         }
+    }
+    // account login with email page, keep back text on mobile
+    .apply-flow-pagination__button--prev .apply-flow-pagination__button-label {
+        display: inline-block;
     }
     // you dont need an account page buttons
     footer.apply-flow-pagination__buttons {
