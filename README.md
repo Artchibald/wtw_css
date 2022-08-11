@@ -1,8 +1,3 @@
-## legality of Base64 web rights?
-
-## What do we use for caps? Arial?
-
-## If anything looks really wrong please let me know, I will write the amend down
 
 ## Home mouse icon doesnt do anyhting, took it out
 
@@ -28,19 +23,7 @@ page 3 on ui doc filters and job listing modal
 
 
 
-
-Will do, thank you for reminding me. Also, I quoted 4 - 6 days for this job. This is my fourth day.
-
-
-css file provide
-
-portal updates
-
-joe leaving
-
-jade replacing project management
-
-Mike will talk to Aquent
+Jade is project management
 
 Ruby overseas career portal
 
@@ -76,31 +59,21 @@ https://ux.wtwco.com/index.html
 
 see doc sent to accenture
 
-https://eedu-dev28.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001
+<!-- https://eedu-dev28.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001 -->
 
 This is minimum requirement
 
-see form copy from external website in pdf from mike
-
-
-
-we have teams group, ask flr calls if required
-
+see form copy from external website in pdf from Mike
 
 Katie says do it all she will double check it
 
-ruby client side
+Ruby client side
 
 Tyler from accenture
 
 Jade is studio manager
 
 Aideen is RID design team
-
-get access
-
-79623926
-
 
 # Timescale
 
@@ -109,3 +82,11 @@ Day 1  Wed 3 Aug  8 hours set up env, 1/2 day and start reviewing work and testi
 Day 2 Thu 4 8 hours aug Css all day
 
 Day 3 Fri 5 8 hours Aug review, some amends and css all day. More templates than thought before.
+
+Day 4 Mon 8 Aug Full day css tweaking throught repo
+
+Tuesday no work, waiting on amends
+
+Day 5 Wed  10 Aug Full day amends
+
+Day 6 Thu 11 Aug full day amends and readme and packaging
