@@ -510,6 +510,8 @@
     background-image: none;
     width: 0;
     display: none; }
+  .app-loaded .pin-code-form__action {
+    opacity: 1; }
   .app-loaded .pin-code-form__action-button {
     text-transform: capitalize;
     font-family: "graphikBold", Arial, sans-serif;
@@ -519,11 +521,14 @@
     text-underline-offset: 2px;
     text-decoration-color: #ddd8e0;
     line-height: 24px;
-    cursor: pointer; }
+    cursor: pointer;
+    color: #2f2c31; }
     .app-loaded .pin-code-form__action-button:hover {
       text-decoration: underline;
       text-underline-offset: 2px;
       cursor: pointer; }
+    .app-loaded .pin-code-form__action-button:visited {
+      color: #2f2c31; }
   .app-loaded .input-row__control-container .pin-code-input .pin-code-input__input {
     border-radius: 0; }
   .app-loaded .input-row__control-container .input-row__control {
@@ -584,6 +589,8 @@
   .app-loaded .apply-flow-fixer__content,
   .app-loaded .apply-flow-fixer__pulse {
     border-radius: 0; }
+  .app-loaded .apply-flow-pagination__error-message {
+    text-align: left; }
   .app-loaded .apply-flow-fixer__content {
     padding: 20px;
     border: 2px solid #c2a8f0;
