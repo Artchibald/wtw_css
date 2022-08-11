@@ -178,6 +178,36 @@
     }
 }
 
+@mixin buttonNoStyle {
+    font-family: "graphikBold", Arial, sans-serif;
+    text-transform: capitalize;
+    color: $onyxBlack;
+    border-radius: 50px;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    line-height: 1.75rem;
+    padding: 8px 0px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    height: 48px;
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-color: $backgroundHoverTag;
+    &:hover {
+        text-decoration: underline;
+        text-underline-offset: 2px;
+        cursor: pointer;
+    }
+    &:active {
+        opacity: 0.5;
+    }
+    &:focus {
+        outline: 2px solid $btnOutline;
+        border: 1px solid white;
+    }
+}
+
 @mixin closeIcon {
     background-color: $hotPink;
     border-radius: 100%;

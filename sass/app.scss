@@ -267,10 +267,17 @@
     .heading.job-details__title {
         @include h2Style;
     }
+    .job-details__subtitle {
+        text-align: left;
+    }
     // login
     .buttons-bar__inner {
+        float: right;
+        .buttons-bar__spacer {
+            display: none;
+        }
         .button:first-child {
-            @include buttonReversedStyle();
+            @include buttonNoStyle();
             height: 48px;
             .button__arrow {
                 display: none;
@@ -316,9 +323,21 @@
             font-family: "graphikBold", Arial, sans-serif;
         }
     }
+    .apply-flow-dialog__content {
+        margin: 0px auto 32px auto;
+    }
     .heading,
-    .apply-flow-dialog__header,
+    .apply-flow-dialog__header {
+        @include h2Style;
+        text-align: left;
+        margin: 0 auto;
+        max-width: 680px;
+        span {
+            font-family: "graphikBold", Arial, sans-serif;
+        }
+    }
     .apply-flow-dialog__text {
+        text-align: left;
         color: $onyxBlack;
     }
     .input-row__label {
@@ -375,6 +394,7 @@
     // join page
     .input-row__control-container {
         .input-row__control {
+            @include formField;
             border-radius: 0;
         }
     }
@@ -455,13 +475,28 @@
     }
     // you dont need an account page buttons
     footer.apply-flow-pagination__buttons {
+        float: right;
+        position: relative;
+        display: flex;
+        width: fit-content;
         button.button:first-child {
-            @include buttonReversedStyle();
+            @include buttonNoStyle();
             max-width: fit-content;
             display: inline;
-            &:before {
-                display: inline-block;
-                margin-right: 0;
+            margin: 0 10px 0 0;
+            span {
+                @include buttonNoStyle();
+                text-decoration: underline;
+                text-underline-offset: 2px;
+                top: -3px;
+                position: relative;
+                cursor: pointer;
+                text-decoration-color: $backgroundHoverTag;
+                &:hover {
+                    text-decoration: underline;
+                    text-underline-offset: 2px;
+                    cursor: pointer;
+                }
             }
             &:after {
                 display: none;
@@ -474,10 +509,14 @@
         }
         button.button:last-child {
             @include buttonStyle();
+            margin: 0 0 0 10px;
             height: 48px;
             max-width: fit-content;
+            display: flex;
             &::after {
                 margin-left: 5px;
+                position: relative;
+                top: 0;
             }
             .button__arrow {
                 display: none;
@@ -792,6 +831,22 @@
         .cookie-consent__button {
             flex-grow: unset;
         }
+    }
+    // terms modal
+    .app-dialog__footer-button {
+        @include buttonStyle;
+        max-width: fit-content;
+        width: fit-content;
+        height: 50px;
+        span {
+            padding: 8px 0px;
+        }
+    }
+    .app-dialog__content {
+        color: $onyxBlack;
+    }
+    .oj-dialog-body {
+        border-radius: 0;
     }
     // push job spec modal down
     .app-dialog__wrapper.app-dialog__wrapper--active {
