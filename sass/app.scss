@@ -22,7 +22,10 @@
         background-repeat: no-repeat;
         background-position: center top;
         background-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 194.7 27.6' style='enable-background:new 0 0 194.7 27.6;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfont-family:'Graphik-Light';%7D .st1%7Bfont-size:25.5976px;%7D .st2%7Bfill:%2399909F;%7D .st3%7Bfill:%237F35B2;%7D%0A%3C/style%3E%3Cfont horiz-adv-x='1000'%3E%3C!-- Graphik is a registered trademark of Commercial TypeSchwartzco Inc. --%3E%3C!-- Copyright: Copyright 2022 Adobe System Incorporated. All rights reserved. --%3E%3Cfont-face font-family='Graphik-Light' units-per-em='1000' underline-position='-92' underline-thickness='66'/%3E%3Cmissing-glyph horiz-adv-x='500'/%3E%3Cglyph unicode='C' horiz-adv-x='725' d='M385,-8C539,-8 656,76 682,230l-52,0C607,107 515,39 386,39C216,39 110,161 110,354l0,8C110,551 226,679 386,679C518,679 596,615 618,500l56,0C652,647 533,724 385,724C198,724 53,572 53,361l0,-8C53,137 181,-8 385,-8z'/%3E%3Cglyph unicode='a' horiz-adv-x='529' d='M221,-8C309,-8 365,29 398,80l0,-80l53,0l0,346C451,479 377,531 268,531C169,531 79,485 67,375l52,0C131,452 187,486 266,486C358,486 398,444 398,346l0,-47l-109,0C160,299 44,262 44,141C44,42 118,-8 221,-8M225,35C139,35 97,74 97,141C97,235 182,258 291,258l107,0l0,-89C398,91 321,35 225,35z'/%3E%3Cglyph unicode='e' horiz-adv-x='554' d='M291,-8C403,-8 486,46 508,146l-53,0C437,73 378,37 291,37C167,37 100,117 98,257l414,0l0,19C512,449 409,531 283,531C143,531 43,422 43,264l0,-8C43,99 140,-8 291,-8M100,300C110,414 182,486 283,486C385,486 452,427 457,300z'/%3E%3Cglyph unicode='r' horiz-adv-x='348' d='M82,0l53,0l0,290C135,429 211,476 312,480l0,50C216,527 164,477 135,413l0,110l-53,0z'/%3E%3Cglyph unicode='s' horiz-adv-x='465' d='M239,-9C358,-9 423,55 423,143C423,245 359,272 247,292C140,311 104,333 104,393C104,449 153,486 226,486C302,486 345,456 358,389l51,0C395,492 321,531 227,531C139,531 55,480 55,391C55,301 107,268 235,245C333,227 372,206 372,139C372,76 327,36 239,36C142,36 98,85 89,156l-51,0C45,56 116,-9 239,-9z'/%3E%3C/font%3E%3Ctext transform='matrix(1 0 0 1 106.0996 22.9502)' class='st0 st1'%3ECareers%3C/text%3E%3Crect x='90.1' class='st2' width='0.9' height='27.6'/%3E%3Cpath class='st3' d='M74,4.7l-7.3,18.7h-6.1L57.6,13l-3.1,10.5h-6.1L43,9.5h-3.3v6.3c0,3,1.2,3.4,2.8,3.4c0.4,0,0.9-0.1,1.3-0.2 l1.7,4.4c-1.3,0.3-2.6,0.5-4,0.5c-5.6,0-8-2.3-8-7.6V9.5h-2.5l-5.4,14h-6.1l-3-10.5l-3.1,10.5H7.2L0,4.7h6.9L10.5,16L14,4.7h4.8 L22.2,16l3.6-11.3h7.7V1.3L39.7,0v4.7h8.4L51.7,16l3.4-11.3h4.8L63.4,16L67,4.7L74,4.7z'/%3E%3C/svg%3E%0A");
-        &::after {}
+        &:hover {
+            transform: scale(1.02, 1.02);
+            transition: all 0.3s ease-in-out;
+        }
     }
     // header settings icon dropdown on profile
     .context-menu {
@@ -30,6 +33,12 @@
         color: $onyxBlack;
         span {
             color: $onyxBlack;
+        }
+    }
+    // Burger menu top right
+    .app-toggle-menu {
+        &:hover>.app-toggle-menu__strap {
+            background-color: $searchBoxColor;
         }
     }
     //header elements
@@ -76,6 +85,11 @@
     .search-box-compact__button-border,
     .search-box-compact__button-background {
         border-radius: 0px;
+    }
+    .search-box-compact__button {
+        &:hover {
+            background-color: $mainPurpleDarker;
+        }
     }
     // search box text colors
     .search-box-compact__fieldset {

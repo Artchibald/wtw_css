@@ -15,6 +15,7 @@
     padding: 0 0 2px 0;
     &:hover {
         border-bottom: 1px solid black;
+        text-underline-offset: 2px;
         cursor: pointer;
     }
 }
@@ -26,14 +27,13 @@
     letter-spacing: 0.01rem;
     color: $mainPurple;
     text-decoration: none;
-    border-bottom: 1px solid $backgroundHoverTag;
     cursor: pointer;
-    transition-property: border-bottom, color;
-    transition-duration: 0.3s;
-    transition-timing-function: ease;
-    width: fit-content;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-color: $backgroundHoverTag;
     &:hover {
-        border-bottom: 1px solid black;
+        text-decoration: underline;
+        text-underline-offset: 2px;
         cursor: pointer;
     }
 }
