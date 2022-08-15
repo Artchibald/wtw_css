@@ -63,11 +63,17 @@
     display: none; }
   .app-loaded .media-element--mobile {
     position: relative;
-    top: -40px; }
+    top: 0px; }
+  .app-loaded .home-page {
+    flex: initial;
+    padding: 80px 0; }
+    @media (min-width: 768px) {
+      .app-loaded .home-page {
+        padding: 120px 0; } }
   @media (min-width: 1200px) {
     .app-loaded .media-element:not(.media-element--mobile) {
       position: relative;
-      top: -40px;
+      top: 0px;
       width: 100%;
       margin: 0 auto;
       max-width: 1200px;
@@ -1544,7 +1550,7 @@
     font-size: 30px;
     content: "\00D7";
     position: relative;
-    top: -2px;
+    top: -8px;
     display: block;
     transition: none; }
     @media (min-width: 768px) {

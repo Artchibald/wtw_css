@@ -62,13 +62,21 @@
     // mobile banner goes up to 767
     .media-element--mobile {
         position: relative;
-        top: -40px;
+        top: 0px;
     }
     //banner desktop
+    // remove flex from homepage
+    .home-page {
+        flex: initial;
+        padding: 80px 0;
+        @media (min-width: $breakpoint-tablet) {
+            padding: 120px 0;
+        }
+    }
     .media-element:not(.media-element--mobile) {
         @media (min-width: $breakpoint-desktop) {
             position: relative;
-            top: -40px;
+            top: 0px;
             width: 100%;
             margin: 0 auto;
             max-width: $breakpoint-desktop;
@@ -911,7 +919,7 @@
             font-size: 30px;
             content: "\00D7";
             position: relative;
-            top: -2px;
+            top: -8px;
             display: block;
             transition: none;
             @media (min-width: $breakpoint-tablet) {
