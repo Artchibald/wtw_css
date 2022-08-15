@@ -90,3 +90,5 @@ Tuesday no work, waiting on amends
 Day 5 Wed  10 Aug Full day amends
 
 Day 6 Thu 11 Aug full day amends and readme and packaging
+
+get strava for running with Lou
