@@ -1,0 +1,7 @@
+/*!
+ * openerFix - a library for removing window.opener when opening a new context for security
+ * @version v0.2.3
+ * @link go/openerfix
+ * @license none
+ */
+!function(e){function t(e){"object"==typeof e&&(e.realClick=!0)}var n,d,r,o,a=document.body;o=function(e){for(;e;){if(!e.tagName)return null;if("a"===e.tagName.toLowerCase())return e;e=e.parentElement}},d=function(t){var n=e.open(t);n&&(n.opener=null)},r=function(e){var t=null;return e.target&&("click"===e.type||"keydown"===e.type&&13===e.keyCode)&&(t=o(e.target)||null),t},n=function(e){if(e.realClick){var t=r(e);t&&"_blank"===t.target&&!e.defaultPrevented&&(e.preventDefault(),d(t.href))}},document&&document.addEventListener&&document.addEventListener("click",n),a&&a.addEventListener?a.addEventListener("click",t):document&&document.addEventListener&&document.addEventListener("DOMContentLoaded",function(){document.body.addEventListener("click",t)})}(this);

@@ -46,6 +46,19 @@
     }
 }
 
+@mixin checkBox {
+    border-radius: 0;
+    // background-color: white;
+    border: 2px solid $mainPurple;
+    &:hover {
+        background-color: $checkBoxHover;
+    }
+    &:focus {
+        outline: 2px solid $btnOutline;
+        outline-offset: 1px;
+    }
+}
+
 // button
 @mixin buttonStyle {
     font-family: "graphikBold", Arial, sans-serif;
@@ -91,6 +104,7 @@
     &:focus {
         outline: 2px solid $btnOutline;
         border: 1px solid white;
+        outline-offset: 1px;
     }
 }
 
@@ -147,7 +161,8 @@
     }
     &:focus {
         outline: 2px solid $btnOutline;
-        border: 1px solid white;
+        border: 1px solid $greyBorder;
+        outline-offset: 1px;
     }
 }
 
@@ -188,6 +203,7 @@
     &:focus {
         outline: 2px solid $btnOutline;
         border: 1px solid white;
+        outline-offset: 1px;
     }
 }
 
@@ -218,6 +234,7 @@
     &:focus {
         outline: 2px solid $btnOutline;
         border: 1px solid white;
+        outline-offset: 1px;
     }
 }
 
@@ -287,8 +304,9 @@
         border-bottom: 2px solid $onyxBlack;
     }
     &:focus {
-        outline: 2px solid $btnOutline;
-        border: 1px solid white;
+        outline: 1px solid $btnOutline;
+        border: 1px solid $greyBorder;
+        outline-offset: 1px;
     }
 }
 
@@ -306,7 +324,8 @@
         border-bottom: 2px solid $onyxBlack;
     }
     &:focus {
-        outline: 2px solid $btnOutline;
-        border: 1px solid white;
+        outline: 1px solid $btnOutline;
+        border: 1px solid $greyBorder;
+        outline-offset: 1px;
     }
 }
