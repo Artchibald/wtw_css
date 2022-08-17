@@ -228,6 +228,8 @@
     font-size: 12px; }
     .app-loaded .job-list-sorting__selector:hover {
       background-color: #ddd8e0; }
+  .app-loaded .job-meta__title {
+    font-family: "graphikBold", Arial, sans-serif; }
   .app-loaded .job-tile.job-list-item h2.job-tile__title {
     text-transform: capitalize;
     font-family: "graphikBold", Arial, sans-serif;
@@ -405,13 +407,15 @@
   .app-loaded .job-details__subtitle {
     text-align: left; }
   .app-loaded .buttons-bar__inner {
-    float: right; }
+    float: left;
+    display: flex;
+    flex-direction: row-reverse; }
     .app-loaded .buttons-bar__inner .buttons-bar__spacer {
       display: none; }
     .app-loaded .buttons-bar__inner .button:first-child {
       font-family: "graphikBold", Arial, sans-serif;
       text-transform: capitalize;
-      color: #2f2c31;
+      color: #7f35b2;
       border-radius: 50px;
       font-size: 18px;
       letter-spacing: 0.01em;
@@ -421,7 +425,7 @@
       border: 1px solid transparent;
       height: 48px;
       cursor: pointer;
-      text-decoration: underline;
+      text-decoration: none;
       text-underline-offset: 2px;
       text-decoration-color: #ddd8e0;
       height: 48px; }
@@ -587,6 +591,7 @@
     transition-duration: 0.3s;
     transition-timing-function: ease;
     padding: 0 0 2px 0;
+    border-bottom: 0;
     color: #7f35b2; }
     .app-loaded .pin-code-form__action-button:hover {
       border-bottom: 1px solid black;
@@ -675,6 +680,20 @@
     .app-loaded .apply-flow-fixer__content .cookie-consent__abstract-message {
       text-transform: capitalize;
       color: #2f2c31; }
+  .app-loaded .apply-flow-input-checkbox__button {
+    border-radius: 0;
+    border: 2px solid #7f35b2; }
+    .app-loaded .apply-flow-input-checkbox__button:hover {
+      background-color: #c2a8f0; }
+    .app-loaded .apply-flow-input-checkbox__button:focus {
+      outline: 2px solid #327fef;
+      outline-offset: 1px; }
+  .app-loaded .apply-flow-input-checkbox__button--checked,
+  .app-loaded :checked ~ .apply-flow-input-checkbox .apply-flow-input-checkbox__button {
+    background-color: #7f35b2; }
+  .app-loaded .apply-flow-input-checkbox__button--checked::before,
+  .app-loaded :checked ~ .apply-flow-input-checkbox .apply-flow-input-checkbox__button::before {
+    background-color: white; }
   .app-loaded .talent-community-flow__toggle-button {
     text-transform: capitalize;
     font-family: "graphikReg", Arial, sans-serif;
@@ -748,7 +767,9 @@
   .app-loaded .apply-flow-pagination__buttons {
     margin-left: auto;
     margin-right: auto;
-    width: 100%; }
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse; }
     .app-loaded .apply-flow-pagination__buttons .apply-flow-pagination__button {
       font-family: "graphikBold", Arial, sans-serif;
       text-transform: capitalize;
@@ -799,14 +820,15 @@
   .app-loaded .apply-flow-pagination__button--prev .apply-flow-pagination__button-label {
     display: inline-block; }
   .app-loaded footer.apply-flow-pagination__buttons {
-    float: right;
+    float: left;
     position: relative;
     display: flex;
-    width: fit-content; }
+    width: fit-content;
+    flex-direction: row-reverse; }
     .app-loaded footer.apply-flow-pagination__buttons button.button:first-child {
       font-family: "graphikBold", Arial, sans-serif;
       text-transform: capitalize;
-      color: #2f2c31;
+      color: #7f35b2;
       border-radius: 50px;
       font-size: 18px;
       letter-spacing: 0.01em;
@@ -816,12 +838,12 @@
       border: 1px solid transparent;
       height: 48px;
       cursor: pointer;
-      text-decoration: underline;
+      text-decoration: none;
       text-underline-offset: 2px;
       text-decoration-color: #ddd8e0;
       max-width: fit-content;
       display: inline;
-      margin: 0 10px 0 0; }
+      margin: 0 0px 0 20px; }
       .app-loaded footer.apply-flow-pagination__buttons button.button:first-child:hover {
         text-decoration: underline;
         text-underline-offset: 2px;
@@ -835,7 +857,7 @@
       .app-loaded footer.apply-flow-pagination__buttons button.button:first-child span {
         font-family: "graphikBold", Arial, sans-serif;
         text-transform: capitalize;
-        color: #2f2c31;
+        color: #7f35b2;
         border-radius: 50px;
         font-size: 18px;
         letter-spacing: 0.01em;
@@ -845,10 +867,10 @@
         border: 1px solid transparent;
         height: 48px;
         cursor: pointer;
-        text-decoration: underline;
+        text-decoration: none;
         text-underline-offset: 2px;
         text-decoration-color: #ddd8e0;
-        text-decoration: underline;
+        text-decoration: none;
         text-underline-offset: 2px;
         top: -3px;
         position: relative;
@@ -887,7 +909,7 @@
       border: 1px solid #d124b8;
       height: 32px;
       cursor: pointer;
-      margin: 0 0 0 10px;
+      margin: 0 0 0 0;
       height: 48px;
       max-width: fit-content;
       display: flex; }
