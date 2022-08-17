@@ -450,6 +450,10 @@
         }
     }
     // form
+    //dropdown selects, move 1px left to hide border of fields beneath
+    .oj-listbox-drop-layer {
+        left: -1px;
+    }
     // form Linkedin Button
     .awli-apply-button {
         button {

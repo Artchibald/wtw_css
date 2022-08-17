@@ -617,6 +617,8 @@
       outline: 1px solid #327fef;
       border: 1px solid #99909f;
       outline-offset: 1px; }
+  .app-loaded .oj-listbox-drop-layer {
+    left: -1px; }
   .app-loaded .awli-apply-button button {
     font-family: "graphikBold", Arial, sans-serif;
     text-transform: capitalize;
