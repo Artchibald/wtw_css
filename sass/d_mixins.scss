@@ -5,8 +5,9 @@
     font-family: "graphikBold", Arial, sans-serif;
     font-size: 18px;
     letter-spacing: 0.01rem;
-    border-bottom: 1px solid $backgroundHoverTag;
+    text-decoration: underline;
     text-underline-offset: 2px;
+    text-decoration-color: $backgroundHoverTag;
     line-height: 18px;
     cursor: pointer;
     transition-property: border-bottom, color;
@@ -14,7 +15,7 @@
     transition-timing-function: ease;
     padding: 0 0 2px 0;
     &:hover {
-        border-bottom: 1px solid black;
+        text-decoration: underline;
         text-underline-offset: 2px;
         cursor: pointer;
     }

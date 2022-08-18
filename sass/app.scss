@@ -469,6 +469,10 @@
     .oj-listbox-drop-layer {
         left: -1px;
     }
+    // tel number align height
+    .phone-row__prefix {
+        min-height: 56px;
+    }
     // form Linkedin Button
     .awli-apply-button {
         button {
@@ -743,6 +747,20 @@
             border-radius: 0;
             background-color: white;
         }
+        .phone-row {
+            .oj-select-choice {
+                border: 1px solid $greyBorder;
+                &:hover {
+                    border: 1px solid $mainPurple;
+                }
+            }
+            .phone-row__input {
+                border: 1px solid $greyBorder;
+                &:hover {
+                    border: 1px solid $mainPurple;
+                }
+            }
+        }
         .apply-flow-input-checkbox {
             .apply-flow-input-checkbox__button {
                 @include checkBox;
@@ -840,9 +858,9 @@
     .cs-button--link {
         @include linkStyle;
     }
-    .cs-job-info__title {
-        @include linkStyle;
-    }
+    // .cs-job-info__title {
+    //     @include linkStyle;
+    // }
     .cs-job-info__location {
         color: $onyxBlack;
     }
