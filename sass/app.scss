@@ -1,4 +1,4 @@
-/* https://github.com/Artchibald/wtw_css */
+/* https://github.com/Artchibald/wtw_css  */
 
 @import "./a_variables.scss";
 @import "./b_breakpoints.scss";
@@ -189,9 +189,14 @@
     }
     // result amends start here
     //tags
-    .categories-list__title {
-        @include linkStyle2;
-        text-transform: capitalize;
+    a.categories-list__button {
+        &:hover {
+            text-decoration: none;
+        }
+        .categories-list__title {
+            @include linkStyle2;
+            text-transform: capitalize;
+        }
     }
     .search-jobs__misc * {
         font-family: "graphikBold", Arial, sans-serif;
@@ -204,6 +209,10 @@
         }
     }
     // media slider in job listing not working, hiding
+    // job not found
+    .job-details__expired-header {
+        color: $onyxBlack;
+    }
     .media-slider.job-details__media-slider {
         display: none;
     }
@@ -450,7 +459,13 @@
         }
     }
     // form
-    //dropdown selects, move 1px left to hide border of fields beneath
+    // selects, adding accessibility states
+    .input-row__select {
+        &:focus {
+            outline: 5px solid red;
+        }
+    }
+    //dropdowns from selects, move 1px left to hide border of fields beneath
     .oj-listbox-drop-layer {
         left: -1px;
     }
@@ -490,6 +505,11 @@
         }
     }
     //login form I agree tickbox
+    .apply-flow-input-checkbox {
+        .apply-flow-input-checkbox__button--checked {
+            background-color: $mainPurple;
+        }
+    }
     .apply-flow-input-checkbox__button {
         @include checkBox;
     }
@@ -499,6 +519,10 @@
     }
     .apply-flow-input-checkbox__button--checked::before,
      :checked~.apply-flow-input-checkbox .apply-flow-input-checkbox__button::before {
+        background-color: white;
+    }
+    .apply-flow-input-checkbox__button--checked::after,
+     :checked~.apply-flow-input-checkbox .apply-flow-input-checkbox__button::after {
         background-color: white;
     }
     // link dropdown style Show fields link
@@ -677,6 +701,10 @@
                 border: 0;
                 outline: 0;
             }
+            &:focus {
+                outline: 2px solid $btnOutline;
+                outline-offset: 1px;
+            }
         }
         .apply-flow-profile-import-awli__file-upload:hover~.apply-flow-profile-import-awli__button {
             border: 0;
@@ -711,9 +739,9 @@
             background-color: white;
         }
         .oj-select-choice {
+            @include formField2;
             border-radius: 0;
             background-color: white;
-            @include formField2;
         }
         .apply-flow-input-checkbox {
             .apply-flow-input-checkbox__button {
@@ -740,6 +768,9 @@
         .candidate-links__add-link {
             @include linkStyle;
             font-size: 13px;
+            &:hover {
+                text-underline-offset: 6px;
+            }
         }
         .text-truncate__toggle {
             @include linkStyle2;

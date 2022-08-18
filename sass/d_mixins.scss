@@ -291,7 +291,7 @@
 }
 
 @mixin formField {
-    text-transform: capitalize;
+    text-transform: none;
     font-family: "graphikReg", Arial, sans-serif;
     font-size: 18px;
     height: 56px;
