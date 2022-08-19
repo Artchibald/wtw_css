@@ -100,6 +100,37 @@
   .app-loaded .search-box-compact__button-border,
   .app-loaded .search-box-compact__button-background {
     border-radius: 0px; }
+  .app-loaded .component-styling-wrapper-30239 .search-box-compact__form::before,
+  .app-loaded .component-styling-wrapper-30239 .search-box-compact__fieldset::before,
+  .app-loaded .component-styling-wrapper-30239 .search-box-compact__button::before {
+    background-color: transparent !important;
+    /* backgroundColor */
+    border-color: white !important;
+    /* foregroundColor */
+    opacity: 1 !important; }
+  .app-loaded .component-styling-wrapper-30239 .search-box-compact__fieldset-spacer,
+  .app-loaded .component-styling-wrapper-30239 .search-jobs__misc-spacer {
+    background-color: white !important;
+    /* foregroundColor */ }
+  .app-loaded .component-styling-wrapper-30239 .search-box-compact__input {
+    color: #7f35b2 !important;
+    /* fontColor */ }
+  .app-loaded .component-styling-wrapper-30239 .search-box-compact__input::placeholder {
+    color: #7f35b2;
+    /* foregroundColor */ }
+  .app-loaded .component-styling-wrapper-30239 .search-box-compact__button-border {
+    border-color: #7f35b2 !important;
+    /* foregroundColor */
+    opacity: 1 !important; }
+  .app-loaded .component-styling-wrapper-30239 .search-box-compact__label {
+    color: #2f2c31 !important;
+    /* fontColor */ }
+  .app-loaded .component-styling-wrapper-30239 .search-box-compact__radius,
+  .app-loaded .component-styling-wrapper-30239 .search-box-compact__spinner,
+  .app-loaded .component-styling-wrapper-30239 .search-jobs__misc-button,
+  .app-loaded .component-styling-wrapper-30239 .search-jobs__misc .search-jobs__chromeless-select .oj-select-arrow {
+    color: #2f2c31 !important;
+    /* foregroundColor */ }
   .app-loaded .search-box-compact__button:hover {
     background-color: #6a2d93; }
   .app-loaded .search-box-compact__fieldset .search-box-compact__input {
@@ -1321,8 +1352,6 @@
         text-decoration: underline;
         text-underline-offset: 2px;
         cursor: pointer; }
-      .app-loaded form.apply-flow__content .candidate-links__add-link:hover {
-        text-underline-offset: 6px; }
     .app-loaded form.apply-flow__content .text-truncate__toggle {
       text-transform: capitalize;
       font-family: "graphikReg", Arial, sans-serif;

@@ -92,3 +92,13 @@ Day 5 Wed  10 Aug Full day amends
 Day 6 Thu 11 Aug full day amends and readme and packaging
 
 get strava for running with Lou
+
+Day 8 Mon 15 aug, half day, new css bug discoveries and fixes and packaging for deploy by Tyler on a call at 130pm; Figuring out discrepancies between local and live, received new amends at 5pm from Katie
+
+Day 9 Tue 16 aug Lots of quite trcky amends to work through, delicate form manipulations
+
+Day 10 Wed  17 aug Corrected logo, corrected css bugs, packaged for Tyler
+
+Day 11 Thu 18 New last set of amends from Katie(tel number, checkbox,tickbox,check all forms), amended, tested and packaged for Tyler
+
+Day 12 Fri 18 Aug Tyler found new cross environment home page color bug I spent 2 hours on, waiting for more potential bugs when he publishes around 3pm 

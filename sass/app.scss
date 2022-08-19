@@ -106,6 +106,46 @@
     .search-box-compact__button-background {
         border-radius: 0px;
     }
+    // 1 bug in env differences on search home index form
+    .component-styling-wrapper-30239 .search-box-compact__form::before,
+    .component-styling-wrapper-30239 .search-box-compact__fieldset::before,
+    .component-styling-wrapper-30239 .search-box-compact__button::before {
+        background-color: transparent !important;
+        /* backgroundColor */
+        border-color: rgb(255, 255, 255) !important;
+        /* foregroundColor */
+        opacity: 1 !important;
+    }
+    .component-styling-wrapper-30239 .search-box-compact__fieldset-spacer,
+    .component-styling-wrapper-30239 .search-jobs__misc-spacer {
+        background-color: rgb(255, 255, 255) !important;
+        /* foregroundColor */
+    }
+    .component-styling-wrapper-30239 .search-box-compact__input {
+        color: $mainPurple !important;
+        /* fontColor */
+    }
+    .component-styling-wrapper-30239 .search-box-compact__input::placeholder {
+        color: $mainPurple;
+        /* foregroundColor */
+    }
+    .component-styling-wrapper-30239 .search-box-compact__button-border {
+        border-color: $mainPurple !important;
+        /* foregroundColor */
+        opacity: 1 !important;
+    }
+    .component-styling-wrapper-30239 .search-box-compact__label {
+        color: $onyxBlack !important;
+        /* fontColor */
+    }
+    .component-styling-wrapper-30239 .search-box-compact__radius,
+    .component-styling-wrapper-30239 .search-box-compact__spinner,
+    .component-styling-wrapper-30239 .search-jobs__misc-button,
+    .component-styling-wrapper-30239 .search-jobs__misc .search-jobs__chromeless-select .oj-select-arrow {
+        color: $onyxBlack !important;
+        /* foregroundColor */
+    }
+    // end of env swap bug css
     .search-box-compact__button {
         &:hover {
             background-color: $mainPurpleDarker;
@@ -786,9 +826,9 @@
         .candidate-links__add-link {
             @include linkStyle;
             font-size: 13px;
-            &:hover {
-                text-underline-offset: 6px;
-            }
+            // &:hover {
+            //     text-underline-offset: 6px;
+            // }
         }
         .text-truncate__toggle {
             @include linkStyle2;

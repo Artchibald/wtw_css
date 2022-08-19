@@ -57,8 +57,9 @@
     font-family: "graphikBold", Arial, sans-serif;
     font-size: 18px;
     letter-spacing: 0.01rem;
-    border-bottom: 1px solid #ddd8e0;
+    text-decoration: underline;
     text-underline-offset: 2px;
+    text-decoration-color: #ddd8e0;
     line-height: 18px;
     cursor: pointer;
     transition-property: border-bottom, color;
@@ -66,7 +67,7 @@
     transition-timing-function: ease;
     padding: 0 0 2px 0; }
     .app-loaded .app-header__current-page-title:hover {
-      border-bottom: 1px solid black;
+      text-decoration: underline;
       text-underline-offset: 2px;
       cursor: pointer; }
   .app-loaded .scroll-suggest {
@@ -126,8 +127,9 @@
     font-family: "graphikBold", Arial, sans-serif;
     font-size: 18px;
     letter-spacing: 0.01rem;
-    border-bottom: 1px solid #ddd8e0;
+    text-decoration: underline;
     text-underline-offset: 2px;
+    text-decoration-color: #ddd8e0;
     line-height: 18px;
     cursor: pointer;
     transition-property: border-bottom, color;
@@ -135,7 +137,7 @@
     transition-timing-function: ease;
     padding: 0 0 2px 0; }
     .app-loaded .search-box-compact__menu-item button:hover {
-      border-bottom: 1px solid black;
+      text-decoration: underline;
       text-underline-offset: 2px;
       cursor: pointer; }
   .app-loaded .search-filters__counter {
@@ -180,7 +182,9 @@
       text-decoration: underline;
       text-underline-offset: 2px;
       cursor: pointer; }
-  .app-loaded .categories-list__title {
+  .app-loaded a.categories-list__button:hover {
+    text-decoration: none; }
+  .app-loaded a.categories-list__button .categories-list__title {
     text-transform: capitalize;
     font-family: "graphikReg", Arial, sans-serif;
     font-size: 13px;
@@ -192,7 +196,7 @@
     text-underline-offset: 2px;
     text-decoration-color: #ddd8e0;
     text-transform: capitalize; }
-    .app-loaded .categories-list__title:hover {
+    .app-loaded a.categories-list__button .categories-list__title:hover {
       text-decoration: underline;
       text-underline-offset: 2px;
       cursor: pointer; }
@@ -237,8 +241,9 @@
     font-family: "graphikBold", Arial, sans-serif;
     font-size: 18px;
     letter-spacing: 0.01rem;
-    border-bottom: 1px solid #ddd8e0;
+    text-decoration: underline;
     text-underline-offset: 2px;
+    text-decoration-color: #ddd8e0;
     line-height: 18px;
     cursor: pointer;
     transition-property: border-bottom, color;
@@ -248,7 +253,7 @@
     margin-bottom: 10px;
     width: fit-content; }
     .app-loaded .job-tile.job-list-item h2.job-tile__title:hover {
-      border-bottom: 1px solid black;
+      text-decoration: underline;
       text-underline-offset: 2px;
       cursor: pointer; }
   .app-loaded .job-tile.job-list-item:hover {
@@ -585,8 +590,9 @@
     font-family: "graphikBold", Arial, sans-serif;
     font-size: 18px;
     letter-spacing: 0.01rem;
-    border-bottom: 1px solid #ddd8e0;
+    text-decoration: underline;
     text-underline-offset: 2px;
+    text-decoration-color: #ddd8e0;
     line-height: 18px;
     cursor: pointer;
     transition-property: border-bottom, color;
@@ -596,7 +602,7 @@
     border-bottom: 0;
     color: #7f35b2; }
     .app-loaded .pin-code-form__action-button:hover {
-      border-bottom: 1px solid black;
+      text-decoration: underline;
       text-underline-offset: 2px;
       cursor: pointer; }
     .app-loaded .pin-code-form__action-button:visited {
@@ -623,6 +629,8 @@
     outline: 5px solid red; }
   .app-loaded .oj-listbox-drop-layer {
     left: -1px; }
+  .app-loaded .phone-row__prefix {
+    min-height: 56px; }
   .app-loaded .awli-apply-button button {
     font-family: "graphikBold", Arial, sans-serif;
     text-transform: capitalize;
@@ -686,6 +694,8 @@
     .app-loaded .apply-flow-fixer__content .cookie-consent__abstract-message {
       text-transform: capitalize;
       color: #2f2c31; }
+  .app-loaded .apply-flow-input-checkbox .apply-flow-input-checkbox__button--checked {
+    background-color: #7f35b2; }
   .app-loaded .apply-flow-input-checkbox__button {
     border-radius: 0;
     border: 2px solid #7f35b2; }
@@ -699,6 +709,9 @@
     background-color: #7f35b2; }
   .app-loaded .apply-flow-input-checkbox__button--checked::before,
   .app-loaded :checked ~ .apply-flow-input-checkbox .apply-flow-input-checkbox__button::before {
+    background-color: white; }
+  .app-loaded .apply-flow-input-checkbox__button--checked::after,
+  .app-loaded :checked ~ .apply-flow-input-checkbox .apply-flow-input-checkbox__button::after {
     background-color: white; }
   .app-loaded .talent-community-flow__toggle-button {
     text-transform: capitalize;
@@ -1264,6 +1277,14 @@
         outline: 1px solid #327fef;
         border: 1px solid #99909f;
         outline-offset: 1px; }
+    .app-loaded form.apply-flow__content .phone-row .oj-select-choice {
+      border: 1px solid #99909f; }
+      .app-loaded form.apply-flow__content .phone-row .oj-select-choice:hover {
+        border: 1px solid #7f35b2; }
+    .app-loaded form.apply-flow__content .phone-row .phone-row__input {
+      border: 1px solid #99909f; }
+      .app-loaded form.apply-flow__content .phone-row .phone-row__input:hover {
+        border: 1px solid #7f35b2; }
     .app-loaded form.apply-flow__content .apply-flow-input-checkbox .apply-flow-input-checkbox__button {
       border-radius: 0;
       border: 2px solid #7f35b2; }
@@ -1286,8 +1307,9 @@
       font-family: "graphikBold", Arial, sans-serif;
       font-size: 18px;
       letter-spacing: 0.01rem;
-      border-bottom: 1px solid #ddd8e0;
+      text-decoration: underline;
       text-underline-offset: 2px;
+      text-decoration-color: #ddd8e0;
       line-height: 18px;
       cursor: pointer;
       transition-property: border-bottom, color;
@@ -1296,11 +1318,9 @@
       padding: 0 0 2px 0;
       font-size: 13px; }
       .app-loaded form.apply-flow__content .candidate-links__add-link:hover {
-        border-bottom: 1px solid black;
+        text-decoration: underline;
         text-underline-offset: 2px;
         cursor: pointer; }
-      .app-loaded form.apply-flow__content .candidate-links__add-link:hover {
-        text-underline-offset: 6px; }
     .app-loaded form.apply-flow__content .text-truncate__toggle {
       text-transform: capitalize;
       font-family: "graphikReg", Arial, sans-serif;
@@ -1407,8 +1427,9 @@
     font-family: "graphikBold", Arial, sans-serif;
     font-size: 18px;
     letter-spacing: 0.01rem;
-    border-bottom: 1px solid #ddd8e0;
+    text-decoration: underline;
     text-underline-offset: 2px;
+    text-decoration-color: #ddd8e0;
     line-height: 18px;
     cursor: pointer;
     transition-property: border-bottom, color;
@@ -1416,24 +1437,7 @@
     transition-timing-function: ease;
     padding: 0 0 2px 0; }
     .app-loaded .cs-button--link:hover {
-      border-bottom: 1px solid black;
-      text-underline-offset: 2px;
-      cursor: pointer; }
-  .app-loaded .cs-job-info__title {
-    text-transform: capitalize;
-    font-family: "graphikBold", Arial, sans-serif;
-    font-size: 18px;
-    letter-spacing: 0.01rem;
-    border-bottom: 1px solid #ddd8e0;
-    text-underline-offset: 2px;
-    line-height: 18px;
-    cursor: pointer;
-    transition-property: border-bottom, color;
-    transition-duration: 0.3s;
-    transition-timing-function: ease;
-    padding: 0 0 2px 0; }
-    .app-loaded .cs-job-info__title:hover {
-      border-bottom: 1px solid black;
+      text-decoration: underline;
       text-underline-offset: 2px;
       cursor: pointer; }
   .app-loaded .cs-job-info__location {
@@ -1452,8 +1456,9 @@
     font-family: "graphikBold", Arial, sans-serif;
     font-size: 18px;
     letter-spacing: 0.01rem;
-    border-bottom: 1px solid #ddd8e0;
+    text-decoration: underline;
     text-underline-offset: 2px;
+    text-decoration-color: #ddd8e0;
     line-height: 18px;
     cursor: pointer;
     transition-property: border-bottom, color;
@@ -1461,7 +1466,7 @@
     transition-timing-function: ease;
     padding: 0 0 2px 0; }
     .app-loaded .candidate-self-service__delete-profile-button:hover {
-      border-bottom: 1px solid black;
+      text-decoration: underline;
       text-underline-offset: 2px;
       cursor: pointer; }
   .app-loaded .regulatory-disability {
