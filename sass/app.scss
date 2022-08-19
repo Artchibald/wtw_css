@@ -112,11 +112,13 @@
     .component-styling-wrapper-30239 .search-box-compact__button::before {
         background-color: transparent !important;
         /* backgroundColor */
-        border-color: rgb(255, 255, 255) !important;
+        border-color: $mainPurple !important;
         /* foregroundColor */
         opacity: 1 !important;
     }
-    .component-styling-wrapper-30239 .search-box-compact__fieldset-spacer,
+    .component-styling-wrapper-30239 .search-box-compact__fieldset-spacer {
+        background-color: $mainPurple !important;
+    }
     .component-styling-wrapper-30239 .search-jobs__misc-spacer {
         background-color: rgb(255, 255, 255) !important;
         /* foregroundColor */
@@ -142,6 +144,47 @@
     .component-styling-wrapper-30239 .search-box-compact__spinner,
     .component-styling-wrapper-30239 .search-jobs__misc-button,
     .component-styling-wrapper-30239 .search-jobs__misc .search-jobs__chromeless-select .oj-select-arrow {
+        color: $onyxBlack !important;
+        /* foregroundColor */
+    }
+    // live id env switch
+    .component-styling-wrapper-30184 .search-box-compact__form::before,
+    .component-styling-wrapper-30184 .search-box-compact__fieldset::before,
+    .component-styling-wrapper-30184 .search-box-compact__button::before {
+        background-color: transparent !important;
+        /* backgroundColor */
+        border-color: $mainPurple !important;
+        /* foregroundColor */
+        opacity: 1 !important;
+    }
+    .component-styling-wrapper-30184 .search-box-compact__fieldset-spacer {
+        background-color: $mainPurple !important;
+    }
+    .component-styling-wrapper-30184 .search-jobs__misc-spacer {
+        background-color: rgb(255, 255, 255) !important;
+        /* foregroundColor */
+    }
+    .component-styling-wrapper-30184 .search-box-compact__input {
+        color: $mainPurple !important;
+        /* fontColor */
+    }
+    .component-styling-wrapper-30184 .search-box-compact__input::placeholder {
+        color: $mainPurple;
+        /* foregroundColor */
+    }
+    .component-styling-wrapper-30184 .search-box-compact__button-border {
+        border-color: $mainPurple !important;
+        /* foregroundColor */
+        opacity: 1 !important;
+    }
+    .component-styling-wrapper-30184 .search-box-compact__label {
+        color: $onyxBlack !important;
+        /* fontColor */
+    }
+    .component-styling-wrapper-30184 .search-box-compact__radius,
+    .component-styling-wrapper-30184 .search-box-compact__spinner,
+    .component-styling-wrapper-30184 .search-jobs__misc-button,
+    .component-styling-wrapper-30184 .search-jobs__misc .search-jobs__chromeless-select .oj-select-arrow {
         color: $onyxBlack !important;
         /* foregroundColor */
     }
